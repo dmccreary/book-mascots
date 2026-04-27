@@ -1,0 +1,67 @@
+site_name: Book Mascots
+site_description: A gallery of mascots used across our intelligent textbooks
+site_author: Dan McCreary
+repo_url: https://github.com/dmccreary/book-mascots
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Mascot Gallery: list-mascots.md
+  - Mascots:
+      - Bioinformatics: mascots/bioinformatics/index.md
+      - Biology: mascots/biology/index.md
+      - Blockchain: mascots/blockchain/index.md
+      - Calculus: mascots/calculus/index.md
+      - Circuits: mascots/circuits/index.md
+      - Cybersecurity: mascots/cybersecurity/index.md
+      - Dementia: mascots/Dementia/index.md
+      - Digital Citizenship: mascots/digital-citizenship/index.md
+      - Ecology: mascots/ecology/index.md
+      - Economics Course: mascots/economics-course/index.md
+      - Functions: mascots/functions/index.md
+      - Genetics: mascots/genetics/index.md
+      - Infographics: mascots/infographics/index.md
+      - Intelligent Textbooks: mascots/intelligent-textbooks/index.md
+      - Learning Sciences: mascots/learning-sciences/index.md
+      - Moss: mascots/moss/index.md
+      - Pre Calc: mascots/pre-calc/index.md
+      - Quantum Computing: mascots/quantum-computing/index.md
+      - Theory Of Knowledge: mascots/theory-of-knowledge/index.md
+      - Token Efficiency: mascots/token-efficiency/index.md
+      - Unicorns: mascots/unicorns/index.md
