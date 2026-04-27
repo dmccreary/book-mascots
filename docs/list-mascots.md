@@ -112,6 +112,12 @@ Click any mascot below to view all of its poses.
 
     Fermi the Ferret
 
+-   **[Statistics Course](mascots/statistics-course/index.md)**
+
+    ![Sylvia the Statistical Squirrel](mascots/statistics-course/neutral.png){ width=200 }
+
+    Sylvia the Statistical Squirrel
+
 -   **[Theory Of Knowledge](mascots/theory-of-knowledge/index.md)**
 
     ![Sofia the Owl](mascots/theory-of-knowledge/neutral.png){ width=200 }

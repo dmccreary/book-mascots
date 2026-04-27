@@ -4,8 +4,49 @@ site_author: Dan McCreary
 repo_url: https://github.com/dmccreary/book-mascots
 edit_uri: edit/main/docs/
 
+exclude_docs: |
+  image-prompts.md
+  mascot-prompts.md
+  mascot-descriptions.md
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Mascot Image Quality: mascot-image-quality.md
+  - Gender-Neutral Names: gender-neutral-names.md
+  - Mascot Test: mascot-test.md
+  - Mascot Gallery: list-mascots.md
+  - Mascots:
+      - Bioinformatics: mascots/bioinformatics/index.md
+      - Biology: mascots/biology/index.md
+      - Blockchain: mascots/blockchain/index.md
+      - Calculus: mascots/calculus/index.md
+      - Circuits: mascots/circuits/index.md
+      - Cybersecurity: mascots/cybersecurity/index.md
+      - Dementia: mascots/Dementia/index.md
+      - Digital Citizenship: mascots/digital-citizenship/index.md
+      - Ecology: mascots/ecology/index.md
+      - Economics Course: mascots/economics-course/index.md
+      - Functions: mascots/functions/index.md
+      - Genetics: mascots/genetics/index.md
+      - Infographics: mascots/infographics/index.md
+      - Intelligent Textbooks: mascots/intelligent-textbooks/index.md
+      - Learning Sciences: mascots/learning-sciences/index.md
+      - Moss: mascots/moss/index.md
+      - Pre Calc: mascots/pre-calc/index.md
+      - Quantum Computing: mascots/quantum-computing/index.md
+      - Statistics Course: mascots/statistics-course/index.md
+      - Theory Of Knowledge: mascots/theory-of-knowledge/index.md
+      - Token Efficiency: mascots/token-efficiency/index.md
+      - Unicorns: mascots/unicorns/index.md
+  - License: license.md
+  - Contact: contact.md
+
+# Theme and features from here
 theme:
   name: material
+  logo: img/logo.png
+  favicon: img/favicon.ico
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -40,28 +81,9 @@ markdown_extensions:
   - toc:
       permalink: true
 
-nav:
-  - Home: index.md
-  - Mascot Gallery: list-mascots.md
-  - Mascots:
-      - Bioinformatics: mascots/bioinformatics/index.md
-      - Biology: mascots/biology/index.md
-      - Blockchain: mascots/blockchain/index.md
-      - Calculus: mascots/calculus/index.md
-      - Circuits: mascots/circuits/index.md
-      - Cybersecurity: mascots/cybersecurity/index.md
-      - Dementia: mascots/Dementia/index.md
-      - Digital Citizenship: mascots/digital-citizenship/index.md
-      - Ecology: mascots/ecology/index.md
-      - Economics Course: mascots/economics-course/index.md
-      - Functions: mascots/functions/index.md
-      - Genetics: mascots/genetics/index.md
-      - Infographics: mascots/infographics/index.md
-      - Intelligent Textbooks: mascots/intelligent-textbooks/index.md
-      - Learning Sciences: mascots/learning-sciences/index.md
-      - Moss: mascots/moss/index.md
-      - Pre Calc: mascots/pre-calc/index.md
-      - Quantum Computing: mascots/quantum-computing/index.md
-      - Theory Of Knowledge: mascots/theory-of-knowledge/index.md
-      - Token Efficiency: mascots/token-efficiency/index.md
-      - Unicorns: mascots/unicorns/index.md
+extra_css:
+  - css/extra.css
+  - css/mascot.css
+
+extra_javascript:
+  - js/extra.js
