@@ -28,6 +28,12 @@ Click any mascot below to view all of its poses.
 
     Delta the Slope-Walking Explorer
 
+-   **[Chemistry](mascots/chemistry/index.md)**
+
+    ![Catalyst the Cat](mascots/chemistry/neutral.png){ width=200 }
+
+    Catalyst the Cat
+
 -   **[Circuits](mascots/circuits/index.md)**
 
     ![Circuits](mascots/circuits/neutral.png){ width=200 }
@@ -100,11 +106,23 @@ Click any mascot below to view all of its poses.
 
     Mossby the Tree Frog
 
+-   **[Personal Finance](mascots/personal-finance/index.md)**
+
+    ![Sylvia the Squirrel](mascots/personal-finance/neutral.png){ width=200 }
+
+    Sylvia the Squirrel
+
 -   **[Pre Calc](mascots/pre-calc/index.md)**
 
     ![Prema](mascots/pre-calc/neutral.png){ width=200 }
 
     Prema
+
+-   **[Prompt Class](mascots/prompt-class/index.md)**
+
+    ![Polly the Parrot](mascots/prompt-class/neutral.png){ width=200 }
+
+    Polly the Parrot
 
 -   **[Quantum Computing](mascots/quantum-computing/index.md)**
 

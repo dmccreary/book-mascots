@@ -16,11 +16,13 @@ nav:
   - Gender-Neutral Names: gender-neutral-names.md
   - Mascot Test: mascot-test.md
   - Mascot Gallery: list-mascots.md
+  - Mascot Ideas: mascot-ideas.md
   - Mascots:
       - Bioinformatics: mascots/bioinformatics/index.md
       - Biology: mascots/biology/index.md
       - Blockchain: mascots/blockchain/index.md
       - Calculus: mascots/calculus/index.md
+      - Chemistry: mascots/chemistry/index.md
       - Circuits: mascots/circuits/index.md
       - Cybersecurity: mascots/cybersecurity/index.md
       - Dementia: mascots/Dementia/index.md
@@ -33,7 +35,9 @@ nav:
       - Intelligent Textbooks: mascots/intelligent-textbooks/index.md
       - Learning Sciences: mascots/learning-sciences/index.md
       - Moss: mascots/moss/index.md
+      - Personal Finance: mascots/personal-finance/index.md
       - Pre Calc: mascots/pre-calc/index.md
+      - Prompt Class: mascots/prompt-class/index.md
       - Quantum Computing: mascots/quantum-computing/index.md
       - Statistics Course: mascots/statistics-course/index.md
       - Theory Of Knowledge: mascots/theory-of-knowledge/index.md

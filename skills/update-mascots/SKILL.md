@@ -5,7 +5,7 @@ description: Scan sibling book/course projects under /Users/dan/Documents/ws/ fo
 
 # update-mascots
 
-This skill keeps the book-mascots gallery in sync with sibling book/course projects under `/Users/dan/Documents/ws/`. It is project-local and assumes it is being run from inside `/Users/dan/Documents/ws/book-mascots`.
+This skill keeps the book-mascots gallery in sync with sibling book/course projects under `$HOME/Documents/ws/`. It is project-local and assumes it is being run from inside `$HOME/Documents/ws/book-mascots`.
 
 ## What it does
 
@@ -25,8 +25,8 @@ This skill keeps the book-mascots gallery in sync with sibling book/course proje
 Just run the bundled script from the project root:
 
 ```bash
-cd /Users/dan/Documents/ws/book-mascots
-python3 .claude/skills/update-mascots/update_mascots.py
+cd "$HOME/Documents/ws/book-mascots"
+python3 skills/update-mascots/update_mascots.py
 ```
 
 The script is idempotent — running it when there are no new mascots produces no file changes and a "0 new mascots" report. Show the script's stdout to the user; it is the summary report.
