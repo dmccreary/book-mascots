@@ -1,6 +1,6 @@
 # Circuits
 
-All poses for the **Circuits** mascot.
+All poses for **Sparky** the mascot for the [Circuits](https://dmccreary.github.io/circuits/) textbook.
 
 <div class="grid cards" markdown>
 

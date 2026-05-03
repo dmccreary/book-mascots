@@ -32,7 +32,7 @@ Click any mascot below to view all of its poses.
 
     ![Circuits](mascots/circuits/neutral.png){ width=200 }
 
-    Circuits
+    Sparky the Lightbulb
 
 -   **[Cybersecurity](mascots/cybersecurity/index.md)**
 
