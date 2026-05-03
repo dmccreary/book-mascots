@@ -1,3 +1,9 @@
+---
+title: "Book Mascots"
+description: "A gallery of sample book mascots designed for reuse in new textbooks based on prior designs."
+image: img/cover.png
+og:image: img/cover.png
+---
 # Book Mascots
 
 This git repository contains a gallery of reusable mascot characters used across 
