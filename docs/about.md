@@ -20,8 +20,8 @@ The poses themselves are a small visual vocabulary. Once a reader has learned th
 The workflow we use across these books is roughly:
 
 1. **Pick a character concept.** Match the species, color palette, and props to the subject matter. *Bailey the Beaver* for ecology (a builder of habitats). *Sentinel the Fox* for cybersecurity ("trust, but verify"). *Delta* — a triangle robot — for calculus. The link between mascot and subject is part of what makes it memorable.
-2. **Write a Character Bible.** A short prose document — name, species, color hex codes, props, personality, "what the hands are doing," background rules. This is the source of truth that every pose prompt re-anchors to. Without it, drift across poses is guaranteed.
-3. **Author seven pose prompts.** Each pose prompt embeds the full character bible, then adds two or three sentences describing the pose-specific gesture (waving for *welcome*, hand-on-chin for *thinking*, etc.). Self-contained prompts matter — image generators do not reliably maintain character identity across a session.
+2. **Write a Character Sheet.** A short prose document — name, species, color hex codes, props, personality, "what the hands are doing," background rules. This is the source of truth that every pose prompt re-anchors to. Without it, drift across poses is guaranteed.
+3. **Author seven pose prompts.** Each pose prompt embeds the full character sheet, then adds two or three sentences describing the pose-specific gesture (waving for *welcome*, hand-on-chin for *thinking*, etc.). Self-contained prompts matter — image generators do not reliably maintain character identity across a session.
 4. **Generate, trim, save.** Run each prompt through an image generator (DALL-E, Midjourney, Imagen, Firefly), trim padding, save as a transparent PNG.
 5. **Wire into the book.** Copy the PNGs into `docs/img/mascot/` and reference them from chapter markdown using a small shortcode or admonition pattern.
 

@@ -2,7 +2,7 @@
 
 Pedagogical mascot for the **Cybersecurity: Foundations, Practice, and Professional Responsibility** textbook.
 
-## Character Bible
+## Character Sheet
 
 - **Name:** Sentinel ("Sen")
 - **Species:** Red fox
