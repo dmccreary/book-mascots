@@ -7,8 +7,18 @@ og:image: img/cover.png
 # Book Mascots
 
 This git repository contains a gallery of reusable mascot characters used across 
-intelligent textbook projects. Each mascot has a set of poses 
-(neutral, welcome, thinking, tip, encouraging, warning, celebration) 
+intelligent textbook projects. Each mascot has a set of at least seven poses:
+
+1. neutral
+2. welcome
+3. tip
+4. thinking
+5. encouraging
+6. warning
+7. celebration
+
+Our chapter content generator skill looks for a document called a "character-sheet.md"
+that will provide guidance on how the  mascot can be
 used to add personality and visual cues throughout a book.  
 
 If you do not have a tool that

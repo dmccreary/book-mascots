@@ -20,6 +20,19 @@ STANDARD_POSES = {
     "encouraging", "encouragement", "warning", "celebration",
 }
 
+# Canonical display order for the pose grid in each per-mascot index.md.
+# Poses not in this list (e.g. "caution", "explain", "beer") sort to the end
+# in their original alphabetical order.
+CANONICAL_POSE_ORDER = [
+    "neutral",
+    "welcome",
+    "tip",
+    "thinking",
+    "encouraging",
+    "warning",
+    "celebration",
+]
+
 # Mascot-name display overrides for sources whose prompt files don't parse cleanly.
 OVERRIDES: dict[str, str] = {
     "cybersecurity": "Sentinel the Fox",
@@ -150,9 +163,30 @@ def find_neutral(dest_dir: Path) -> str | None:
     return pngs[0] if pngs else None
 
 
+def canonical_pose_key(filename: str) -> tuple[int, str]:
+    """Sort key that orders pose PNGs by CANONICAL_POSE_ORDER.
+
+    Files whose pose stem isn't in CANONICAL_POSE_ORDER sort to the end in
+    alphabetical order. "encouragement" is treated as "encouraging".
+    """
+    pose = pose_name(filename)
+    if pose == "encouragement":
+        pose = "encouraging"
+    if pose in CANONICAL_POSE_ORDER:
+        return (CANONICAL_POSE_ORDER.index(pose), filename.lower())
+    return (len(CANONICAL_POSE_ORDER), filename.lower())
+
+
 def write_index_md(dest_dir: Path, slug: str) -> None:
-    """Generate docs/mascots/<slug>/index.md showing every pose as a grid card."""
-    files = sorted(p.name for p in dest_dir.glob("*.png"))
+    """Generate docs/mascots/<slug>/index.md showing every pose as a grid card.
+
+    Poses are emitted in CANONICAL_POSE_ORDER (neutral, welcome, tip, thinking,
+    encouraging, warning, celebration). Non-canonical poses go to the end.
+    """
+    files = sorted(
+        (p.name for p in dest_dir.glob("*.png")),
+        key=canonical_pose_key,
+    )
     skip = re.compile(
         r"^(favicon|android-chrome|apple-touch-icon|.*square|social-graph-preview)",
         re.I,

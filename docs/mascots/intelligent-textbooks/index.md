@@ -6,6 +6,26 @@ All poses for the **Intelligent Textbooks** mascot.
 
 <div class="grid cards" markdown>
 
+-   ![Neutral](axiom-neutral.png){ width=300 }
+
+    **Neutral**
+
+-   ![Welcome](axiom-welcome.png){ width=300 }
+
+    **Welcome**
+
+-   ![Tip](axiom-tip.png){ width=300 }
+
+    **Tip**
+
+-   ![Thinking](axiom-thinking.png){ width=300 }
+
+    **Thinking**
+
+-   ![Warning](axiom-warning.png){ width=300 }
+
+    **Warning**
+
 -   ![Celebrate](axiom-celebrate.png){ width=300 }
 
     **Celebrate**
@@ -17,26 +37,6 @@ All poses for the **Intelligent Textbooks** mascot.
 -   ![Explain](axiom-explain.png){ width=300 }
 
     **Explain**
-
--   ![Neutral](axiom-neutral.png){ width=300 }
-
-    **Neutral**
-
--   ![Thinking](axiom-thinking.png){ width=300 }
-
-    **Thinking**
-
--   ![Tip](axiom-tip.png){ width=300 }
-
-    **Tip**
-
--   ![Warning](axiom-warning.png){ width=300 }
-
-    **Warning**
-
--   ![Welcome](axiom-welcome.png){ width=300 }
-
-    **Welcome**
 
 </div>
 

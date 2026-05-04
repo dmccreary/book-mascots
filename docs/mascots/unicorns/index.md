@@ -6,33 +6,33 @@ All poses for the **Unicorns** mascot.
 
 <div class="grid cards" markdown>
 
--   ![Celebration](celebration.png){ width=300 }
-
-    **Celebration**
-
--   ![Encouragement](encouragement.png){ width=300 }
-
-    **Encouragement**
-
 -   ![Neutral](neutral.png){ width=300 }
 
     **Neutral**
 
--   ![Thinking](thinking.png){ width=300 }
+-   ![Welcome](welcome.png){ width=300 }
 
-    **Thinking**
+    **Welcome**
 
 -   ![Tip](tip.png){ width=300 }
 
     **Tip**
 
+-   ![Thinking](thinking.png){ width=300 }
+
+    **Thinking**
+
+-   ![Encouragement](encouragement.png){ width=300 }
+
+    **Encouragement**
+
 -   ![Warning](warning.png){ width=300 }
 
     **Warning**
 
--   ![Welcome](welcome.png){ width=300 }
+-   ![Celebration](celebration.png){ width=300 }
 
-    **Welcome**
+    **Celebration**
 
 </div>
 

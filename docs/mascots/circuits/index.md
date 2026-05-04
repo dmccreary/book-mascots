@@ -6,49 +6,49 @@ All poses for the **Circuits** mascot.
 
 <div class="grid cards" markdown>
 
--   ![Celebration](celebration.png){ width=300 }
-
-    **Celebration**
-
--   ![Encouraging](encouraging.png){ width=300 }
-
-    **Encouraging**
-
 -   ![Neutral](neutral.png){ width=300 }
 
     **Neutral**
-
--   ![Thinking](sparky-thinking.png){ width=300 }
-
-    **Thinking**
-
--   ![Tip](sparky-tip.png){ width=300 }
-
-    **Tip**
 
 -   ![Welcome](sparky-welcome.png){ width=300 }
 
     **Welcome**
 
--   ![V1](thinking-v1.png){ width=300 }
+-   ![Welcome](welcome.png){ width=300 }
 
-    **V1**
+    **Welcome**
 
--   ![Thinking](thinking.png){ width=300 }
+-   ![Tip](sparky-tip.png){ width=300 }
 
-    **Thinking**
+    **Tip**
 
 -   ![Tip](tip.png){ width=300 }
 
     **Tip**
 
+-   ![Thinking](sparky-thinking.png){ width=300 }
+
+    **Thinking**
+
+-   ![Thinking](thinking.png){ width=300 }
+
+    **Thinking**
+
+-   ![Encouraging](encouraging.png){ width=300 }
+
+    **Encouraging**
+
 -   ![Warning](warning.png){ width=300 }
 
     **Warning**
 
--   ![Welcome](welcome.png){ width=300 }
+-   ![Celebration](celebration.png){ width=300 }
 
-    **Welcome**
+    **Celebration**
+
+-   ![V1](thinking-v1.png){ width=300 }
+
+    **V1**
 
 </div>
 

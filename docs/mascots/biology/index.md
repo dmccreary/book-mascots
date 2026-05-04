@@ -6,37 +6,37 @@ All poses for the **Biology** mascot.
 
 <div class="grid cards" markdown>
 
--   ![Beer](beer.png){ width=300 }
-
-    **Beer**
-
--   ![Celebration](celebration.png){ width=300 }
-
-    **Celebration**
-
--   ![Encouraging](encouraging.png){ width=300 }
-
-    **Encouraging**
-
 -   ![Neutral](neutral.png){ width=300 }
 
     **Neutral**
 
--   ![Thinking](thinking.png){ width=300 }
+-   ![Welcome](welcome.png){ width=300 }
 
-    **Thinking**
+    **Welcome**
 
 -   ![Tip](tip.png){ width=300 }
 
     **Tip**
 
+-   ![Thinking](thinking.png){ width=300 }
+
+    **Thinking**
+
+-   ![Encouraging](encouraging.png){ width=300 }
+
+    **Encouraging**
+
 -   ![Warning](warning.png){ width=300 }
 
     **Warning**
 
--   ![Welcome](welcome.png){ width=300 }
+-   ![Celebration](celebration.png){ width=300 }
 
-    **Welcome**
+    **Celebration**
+
+-   ![Beer](beer.png){ width=300 }
+
+    **Beer**
 
 </div>
 

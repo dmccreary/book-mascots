@@ -94,6 +94,12 @@ Click any mascot below to view all of its poses.
 
     Percy the Peacock
 
+-   **[Information Systems](mascots/information-systems/index.md)**
+
+    ![Iris the Hummingbird](mascots/information-systems/neutral.png){ width=200 }
+
+    Iris the Hummingbird
+
 -   **[Intelligent Textbooks](mascots/intelligent-textbooks/index.md)**
 
     ![Axiom the Owl](mascots/intelligent-textbooks/axiom-neutral.png){ width=200 }
