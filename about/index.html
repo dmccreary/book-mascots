@@ -1270,8 +1270,8 @@
 <p>The workflow we use across these books is roughly:</p>
 <ol>
 <li><strong>Pick a character concept.</strong> Match the species, color palette, and props to the subject matter. <em>Bailey the Beaver</em> for ecology (a builder of habitats). <em>Sentinel the Fox</em> for cybersecurity ("trust, but verify"). <em>Delta</em> — a triangle robot — for calculus. The link between mascot and subject is part of what makes it memorable.</li>
-<li><strong>Write a Character Bible.</strong> A short prose document — name, species, color hex codes, props, personality, "what the hands are doing," background rules. This is the source of truth that every pose prompt re-anchors to. Without it, drift across poses is guaranteed.</li>
-<li><strong>Author seven pose prompts.</strong> Each pose prompt embeds the full character bible, then adds two or three sentences describing the pose-specific gesture (waving for <em>welcome</em>, hand-on-chin for <em>thinking</em>, etc.). Self-contained prompts matter — image generators do not reliably maintain character identity across a session.</li>
+<li><strong>Write a Character Sheet.</strong> A short prose document — name, species, color hex codes, props, personality, "what the hands are doing," background rules. This is the source of truth that every pose prompt re-anchors to. Without it, drift across poses is guaranteed.</li>
+<li><strong>Author seven pose prompts.</strong> Each pose prompt embeds the full character sheet, then adds two or three sentences describing the pose-specific gesture (waving for <em>welcome</em>, hand-on-chin for <em>thinking</em>, etc.). Self-contained prompts matter — image generators do not reliably maintain character identity across a session.</li>
 <li><strong>Generate, trim, save.</strong> Run each prompt through an image generator (DALL-E, Midjourney, Imagen, Firefly), trim padding, save as a transparent PNG.</li>
 <li><strong>Wire into the book.</strong> Copy the PNGs into <code>docs/img/mascot/</code> and reference them from chapter markdown using a small shortcode or admonition pattern.</li>
 </ol>
