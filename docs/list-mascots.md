@@ -4,6 +4,12 @@ Click any mascot below to view all of its poses.
 
 <div class="grid cards" markdown>
 
+-   **[Ancient History](mascots/ancient-history/index.md)**
+
+    ![Chronos the Tortoise](mascots/ancient-history/neutral.png){ width=200 }
+
+    Chronos the Tortoise
+
 -   **[Bioinformatics](mascots/bioinformatics/index.md)**
 
     ![Olli the Octopus](mascots/bioinformatics/neutral.png){ width=200 }
@@ -105,6 +111,12 @@ Click any mascot below to view all of its poses.
     ![Mossby the Tree Frog](mascots/moss/neutral.png){ width=200 }
 
     Mossby the Tree Frog
+
+-   **[Networking](mascots/networking/index.md)**
+
+    ![Buzz the Honey Bee](mascots/networking/neutral.png){ width=200 }
+
+    Buzz the Honey Bee
 
 -   **[Personal Finance](mascots/personal-finance/index.md)**
 

@@ -21,6 +21,7 @@ nav:
   - Mascot Montage: mascot-montage.md
   - Mascot Ideas: mascot-ideas.md
   - Mascots:
+      - Ancient History: mascots/ancient-history/index.md
       - Bioinformatics: mascots/bioinformatics/index.md
       - Biology: mascots/biology/index.md
       - Blockchain: mascots/blockchain/index.md
@@ -38,6 +39,7 @@ nav:
       - Intelligent Textbooks: mascots/intelligent-textbooks/index.md
       - Learning Sciences: mascots/learning-sciences/index.md
       - Moss: mascots/moss/index.md
+      - Networking: mascots/networking/index.md
       - Personal Finance: mascots/personal-finance/index.md
       - Pre Calc: mascots/pre-calc/index.md
       - Prompt Class: mascots/prompt-class/index.md
