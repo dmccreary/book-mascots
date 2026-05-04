@@ -2,6 +2,7 @@ site_name: Book Mascots
 site_description: A gallery of mascots used across our intelligent textbooks
 site_author: Dan McCreary
 repo_url: https://github.com/dmccreary/book-mascots
+site_url: https://dmccreary.github.io/book-mascots/
 edit_uri: edit/main/docs/
 
 exclude_docs: |
@@ -13,6 +14,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Mascot Image Quality: mascot-image-quality.md
+  - Mascot Effectiveness Research: mascot-effectivness.md
   - Gender-Neutral Names: gender-neutral-names.md
   - Mascot Test: mascot-test.md
   - Mascot Gallery: list-mascots.md
@@ -44,6 +46,7 @@ nav:
       - Theory Of Knowledge: mascots/theory-of-knowledge/index.md
       - Token Efficiency: mascots/token-efficiency/index.md
       - Unicorns: mascots/unicorns/index.md
+  - References: references.md
   - License: license.md
   - Contact: contact.md
 
