@@ -69,7 +69,10 @@ hide:
   <!-- Row 1: 8 mascots -->
   <div class="cell"><a href="../mascots/bioinformatics/" title="Olli the Octopus"><img src="../mascots/bioinformatics/neutral.png" alt="Olli the Octopus"></a></div>
   <div class="cell"><a href="../mascots/biology/" title="Gregor the Tree Frog"><img src="../mascots/biology/neutral.png" alt="Gregor the Tree Frog"></a></div>
-  <div class="cell"><a href="../mascots/blockchain/" title="Rex the Raccoon"><img src="../mascots/blockchain/neutral.png" alt="Rex the Raccoon"></a></div>
+
+
+  <div class="cell"><a href="../mascots/information-systems/" title="Iris the Hummingbird"><img src="../mascots/information-systems/neutral.png" alt="Iris the Hummingbird"></a></div>
+
   <div class="cell"><a href="../mascots/calculus/" title="Delta the Slope-Walking Explorer"><img src="../mascots/calculus/neutral.png" alt="Delta the Slope-Walking Explorer"></a></div>
   <div class="cell"><a href="../mascots/circuits/" title="Sparky the Lightbulb"><img src="../mascots/circuits/neutral.png" alt="Sparky the Lightbulb"></a></div>
   <div class="cell"><a href="../mascots/cybersecurity/" title="Sentinel the Fox"><img src="../mascots/cybersecurity/neutral.png" alt="Sentinel the Fox"></a></div>
