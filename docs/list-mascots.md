@@ -1,175 +1,293 @@
 # Mascot Gallery
 
-Click any mascot below to view all of its poses.
+Mascots are grouped by animal type. Click any card to view all poses.
+
+## Beaver
 
 <div class="grid cards" markdown>
 
--   **[Ancient History](mascots/ancient-history/index.md)**
-
-    ![Chronos the Tortoise](mascots/ancient-history/neutral.png){ width=200 }
-
-    Chronos the Tortoise
-
--   **[Bioinformatics](mascots/bioinformatics/index.md)**
-
-    ![Olli the Octopus](mascots/bioinformatics/neutral.png){ width=200 }
-
-    Olli the Octopus
-
--   **[Biology](mascots/biology/index.md)**
-
-    ![Gregor the Tree Frog](mascots/biology/neutral.png){ width=200 }
-
-    Gregor the Tree Frog
-
--   **[Blockchain](mascots/blockchain/index.md)**
-
-    ![Rex the Raccoon](mascots/blockchain/neutral.png){ width=200 }
-
-    Rex the Raccoon
-
--   **[Calculus](mascots/calculus/index.md)**
-
-    ![Delta the Slope-Walking Explorer](mascots/calculus/neutral.png){ width=200 }
-
-    Delta the Slope-Walking Explorer
-
--   **[Chemistry](mascots/chemistry/index.md)**
-
-    ![Catalyst the Cat](mascots/chemistry/neutral.png){ width=200 }
-
-    Catalyst the Cat
-
--   **[Circuits](mascots/circuits/index.md)**
-
-    ![Circuits](mascots/circuits/neutral.png){ width=200 }
-
-    Sparky the Lightbulb
-
--   **[Cybersecurity](mascots/cybersecurity/index.md)**
-
-    ![Sentinel the Fox](mascots/cybersecurity/neutral.png){ width=200 }
-
-    Sentinel the Fox
-
--   **[Dementia](mascots/Dementia/index.md)**
-
-    ![Tokie](mascots/Dementia/neutral.png){ width=200 }
-
-    Tokie
-
--   **[Digital Citizenship](mascots/digital-citizenship/index.md)**
-
-    ![Maka the River Otter](mascots/digital-citizenship/neutral.png){ width=200 }
-
-    Maka the River Otter
-
--   **[Ecology](mascots/ecology/index.md)**
+-   **[Bailey the Beaver](mascots/ecology/index.md)**
 
     ![Bailey the Beaver](mascots/ecology/neutral.png){ width=200 }
 
-    Bailey the Beaver
+    Ecology
 
--   **[Economics Course](mascots/economics-course/index.md)**
+</div>
 
-    ![Ferris the Fox](mascots/economics-course/neutral.png){ width=200 }
+## Cat
 
-    Ferris the Fox
+<div class="grid cards" markdown>
 
--   **[Functions](mascots/functions/index.md)**
+-   **[Catalyst the Cat](mascots/chemistry/index.md)**
 
-    ![Rick the Raccoon](mascots/functions/neutral.png){ width=200 }
+    ![Catalyst the Cat](mascots/chemistry/neutral.png){ width=200 }
 
-    Rick the Raccoon
+    Chemistry
 
--   **[Genetics](mascots/genetics/index.md)**
+</div>
 
-    ![Dottie the Drosophila](mascots/genetics/neutral.png){ width=200 }
+## Elephant
 
-    Dottie the Drosophila
+<div class="grid cards" markdown>
 
--   **[Infographics](mascots/infographics/index.md)**
-
-    ![Percy the Peacock](mascots/infographics/neutral.png){ width=200 }
-
-    Percy the Peacock
-
--   **[Information Systems](mascots/information-systems/index.md)**
-
-    ![Iris the Hummingbird](mascots/information-systems/neutral.png){ width=200 }
-
-    Iris the Hummingbird
-
--   **[Intelligent Textbooks](mascots/intelligent-textbooks/index.md)**
-
-    ![Axiom the Owl](mascots/intelligent-textbooks/axiom-neutral.png){ width=200 }
-
-    Axiom the Owl
-
--   **[Learning Sciences](mascots/learning-sciences/index.md)**
+-   **[Bloom the Elephant](mascots/learning-sciences/index.md)**
 
     ![Bloom the Elephant](mascots/learning-sciences/neutral.png){ width=200 }
 
-    Bloom the Elephant
+    Learning Sciences
 
--   **[Moss](mascots/moss/index.md)**
+</div>
 
-    ![Mossby the Tree Frog](mascots/moss/neutral.png){ width=200 }
+## Ferret
 
-    Mossby the Tree Frog
+<div class="grid cards" markdown>
 
--   **[Networking](mascots/networking/index.md)**
-
-    ![Buzz the Honey Bee](mascots/networking/neutral.png){ width=200 }
-
-    Buzz the Honey Bee
-
--   **[Personal Finance](mascots/personal-finance/index.md)**
-
-    ![Sylvia the Squirrel](mascots/personal-finance/neutral.png){ width=200 }
-
-    Sylvia the Squirrel
-
--   **[Pre Calc](mascots/pre-calc/index.md)**
-
-    ![Prema](mascots/pre-calc/neutral.png){ width=200 }
-
-    Prema
-
--   **[Prompt Class](mascots/prompt-class/index.md)**
-
-    ![Polly the Parrot](mascots/prompt-class/neutral.png){ width=200 }
-
-    Polly the Parrot
-
--   **[Quantum Computing](mascots/quantum-computing/index.md)**
+-   **[Fermi the Ferret](mascots/quantum-computing/index.md)**
 
     ![Fermi the Ferret](mascots/quantum-computing/neutral.png){ width=200 }
 
-    Fermi the Ferret
+    Quantum Computing
 
--   **[Statistics Course](mascots/statistics-course/index.md)**
+</div>
 
-    ![Sylvia the Statistical Squirrel](mascots/statistics-course/neutral.png){ width=200 }
+## Foxes
 
-    Sylvia the Statistical Squirrel
+<div class="grid cards" markdown>
 
--   **[Theory Of Knowledge](mascots/theory-of-knowledge/index.md)**
+-   **[Ferris the Fox](mascots/economics-course/index.md)**
+
+    ![Ferris the Fox](mascots/economics-course/neutral.png){ width=200 }
+
+    Economics
+
+-   **[Sentinel the Fox](mascots/cybersecurity/index.md)**
+
+    ![Sentinel the Fox](mascots/cybersecurity/neutral.png){ width=200 }
+
+    Cybersecurity
+
+</div>
+
+## Fruit Fly
+
+<div class="grid cards" markdown>
+
+-   **[Dottie the Drosophila](mascots/genetics/index.md)**
+
+    ![Dottie the Drosophila](mascots/genetics/neutral.png){ width=200 }
+
+    Genetics
+
+</div>
+
+## Honey Bee
+
+<div class="grid cards" markdown>
+
+-   **[Buzz the Honey Bee](mascots/networking/index.md)**
+
+    ![Buzz the Honey Bee](mascots/networking/neutral.png){ width=200 }
+
+    Networking
+
+</div>
+
+## Hummingbird
+
+<div class="grid cards" markdown>
+
+-   **[Iris the Hummingbird](mascots/information-systems/index.md)**
+
+    ![Iris the Hummingbird](mascots/information-systems/neutral.png){ width=200 }
+
+    Information Systems
+
+</div>
+
+## Octopus
+
+<div class="grid cards" markdown>
+
+-   **[Olli the Octopus](mascots/bioinformatics/index.md)**
+
+    ![Olli the Octopus](mascots/bioinformatics/neutral.png){ width=200 }
+
+    Bioinformatics
+
+</div>
+
+## Otter
+
+<div class="grid cards" markdown>
+
+-   **[Maka the River Otter](mascots/digital-citizenship/index.md)**
+
+    ![Maka the River Otter](mascots/digital-citizenship/neutral.png){ width=200 }
+
+    Digital Citizenship
+
+</div>
+
+## Owls
+
+<div class="grid cards" markdown>
+
+-   **[Axiom the Owl](mascots/intelligent-textbooks/index.md)**
+
+    ![Axiom the Owl](mascots/intelligent-textbooks/axiom-neutral.png){ width=200 }
+
+    Intelligent Textbooks
+
+-   **[Sofia the Owl](mascots/theory-of-knowledge/index.md)**
 
     ![Sofia the Owl](mascots/theory-of-knowledge/neutral.png){ width=200 }
 
-    Sofia the Owl
+    Theory of Knowledge
 
--   **[Token Efficiency](mascots/token-efficiency/index.md)**
+</div>
+
+## Parrot
+
+<div class="grid cards" markdown>
+
+-   **[Polly the Parrot](mascots/prompt-class/index.md)**
+
+    ![Polly the Parrot](mascots/prompt-class/neutral.png){ width=200 }
+
+    Prompt Engineering
+
+</div>
+
+## Peacock
+
+<div class="grid cards" markdown>
+
+-   **[Percy the Peacock](mascots/infographics/index.md)**
+
+    ![Percy the Peacock](mascots/infographics/neutral.png){ width=200 }
+
+    Infographics
+
+</div>
+
+## Raccoons
+
+<div class="grid cards" markdown>
+
+-   **[Rex the Raccoon](mascots/blockchain/index.md)**
+
+    ![Rex the Raccoon](mascots/blockchain/neutral.png){ width=200 }
+
+    Blockchain
+
+-   **[Rick the Raccoon](mascots/functions/index.md)**
+
+    ![Rick the Raccoon](mascots/functions/neutral.png){ width=200 }
+
+    IB Math Functions
+
+</div>
+
+## Red Panda
+
+<div class="grid cards" markdown>
+
+-   **[Pemba the Red Panda](mascots/token-efficiency/index.md)**
 
     ![Pemba the Red Panda](mascots/token-efficiency/neutral.png){ width=200 }
 
-    Pemba the Red Panda
+    Token Efficiency
 
--   **[Unicorns](mascots/unicorns/index.md)**
+</div>
+
+## Squirrels
+
+<div class="grid cards" markdown>
+
+-   **[Sylvia the Statistical Squirrel](mascots/statistics-course/index.md)**
+
+    ![Sylvia the Statistical Squirrel](mascots/statistics-course/neutral.png){ width=200 }
+
+    AP Statistics
+
+-   **[Sylvia the Squirrel](mascots/personal-finance/index.md)**
+
+    ![Sylvia the Squirrel](mascots/personal-finance/neutral.png){ width=200 }
+
+    Personal Finance
+
+</div>
+
+## Tortoise
+
+<div class="grid cards" markdown>
+
+-   **[Chronos the Tortoise](mascots/ancient-history/index.md)**
+
+    ![Chronos the Tortoise](mascots/ancient-history/neutral.png){ width=200 }
+
+    Ancient History
+
+</div>
+
+## Tree Frogs
+
+<div class="grid cards" markdown>
+
+-   **[Gregor the Tree Frog](mascots/biology/index.md)**
+
+    ![Gregor the Tree Frog](mascots/biology/neutral.png){ width=200 }
+
+    Biology
+
+-   **[Mossby the Tree Frog](mascots/moss/index.md)**
+
+    ![Mossby the Tree Frog](mascots/moss/neutral.png){ width=200 }
+
+    Moss (Bryophytes)
+
+</div>
+
+## Unicorn
+
+<div class="grid cards" markdown>
+
+-   **[Sparkle the Unicorn](mascots/unicorns/index.md)**
 
     ![Sparkle the Unicorn](mascots/unicorns/neutral.png){ width=200 }
 
-    Sparkle the Unicorn
+    Unicorns
+
+</div>
+
+## Special Characters
+
+Non-animal mascots chosen for symbolic or pedagogical reasons.
+
+<div class="grid cards" markdown>
+
+-   **[Tokie](mascots/Dementia/index.md)**
+
+    ![Tokie](mascots/Dementia/neutral.png){ width=200 }
+
+    Dementia — abstract cube character
+
+-   **[Delta the Explorer](mascots/calculus/index.md)**
+
+    ![Delta the Slope-Walking Explorer](mascots/calculus/neutral.png){ width=200 }
+
+    Calculus — hiker/explorer
+
+-   **[Sparky the Lightbulb](mascots/circuits/index.md)**
+
+    ![Sparky the Lightbulb](mascots/circuits/neutral.png){ width=200 }
+
+    Circuits — incandescent lightbulb
+
+-   **[Prema the Robot](mascots/pre-calc/index.md)**
+
+    ![Prema](mascots/pre-calc/neutral.png){ width=200 }
+
+    Pre-Calculus — friendly robot
 
 </div>
