@@ -142,3 +142,8 @@ many public-library e-book collections. None of the books or paywalled
 papers are essential — a reader who works through references 1–7 (Wikipedia)
 plus references 12 and 14 (the Lester and Moreno-Mayer papers) will have
 the full conceptual picture.
+
+
+[Big tech bets on new mascots in bid to seem more cuddly](https://www.bbc.com/news/articles/c99l1zzp8xzo) - May 2026 - BBC - Chris Marshall Business reporter
+
+"Businesses whose marketing campaigns include mascots are 37% more likely to grow their market share than those which don't, according to research published back in 2019."

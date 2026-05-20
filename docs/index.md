@@ -4,10 +4,18 @@ description: "A gallery of sample book mascots designed for reuse in new textboo
 image: img/cover.png
 og:image: img/cover.png
 ---
-# Book Mascots
+# Intelligent Textbook Mascots
 
-This git repository contains a gallery of reusable mascot characters used across 
-intelligent textbook projects. Each mascot has a set of at least seven poses:
+This git repository contains a database of reusable mascot characters used across 
+intelligent textbook projects.  This repository is designed to be used with an AI Skill
+to help you select an existing mascot design to match to your textbook or
+to quickly create variations of existing designs using a token-efficient process.
+This process can be done even if you do not have an API key to an image
+generation LLM.  This process enlarges the number of textbook generators that use mascots
+in their books without the need for expensive image generation tools.
+It also has skills that can generate new mascots using a high-quality image prompts.
+
+Each mascot has a set of at least seven poses:
 
 1. neutral
 2. welcome

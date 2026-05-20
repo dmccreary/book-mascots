@@ -2,7 +2,7 @@
 
 This site collects pedagogical mascots used across a family of intelligent textbooks. Each mascot is a small cartoon character with a fixed visual identity and a set of standard "poses" — neutral, welcome, thinking, tip, encouraging, warning, celebration — that authors drop into chapters to add personality and to give students consistent visual cues.
 
-## Why pedagogical mascots matter
+## Why Pedagogical Mascots Matter
 
 A mascot is not decoration. When used well, it does real instructional work.
 
@@ -20,12 +20,16 @@ The poses themselves are a small visual vocabulary. Once a reader has learned th
 The workflow we use across these books is roughly:
 
 1. **Pick a character concept.** Match the species, color palette, and props to the subject matter. *Bailey the Beaver* for ecology (a builder of habitats). *Sentinel the Fox* for cybersecurity ("trust, but verify"). *Delta* — a triangle robot — for calculus. The link between mascot and subject is part of what makes it memorable.
-2. **Write a Character Sheet.** A short prose document — name, species, color hex codes, props, personality, "what the hands are doing," background rules. This is the source of truth that every pose prompt re-anchors to. Without it, drift across poses is guaranteed.
-3. **Author seven pose prompts.** Each pose prompt embeds the full character sheet, then adds two or three sentences describing the pose-specific gesture (waving for *welcome*, hand-on-chin for *thinking*, etc.). Self-contained prompts matter — image generators do not reliably maintain character identity across a session.
-4. **Generate, trim, save.** Run each prompt through an image generator (DALL-E, Midjourney, Imagen, Firefly), trim padding, save as a transparent PNG.
+2. **Write a Character Sheet.** A short prose document — name, species, color hex codes, props, personality, "what the hands are doing," background rules. This is the source of truth that every pose prompt re-anchors to. Without it, drift across poses is guaranteed.  Be careful about any
+items that are being held in the hands.  The hands should be free for gesturing.
+3. **Author seven pose prompts.** Each pose prompt embeds the full character sheet, then adds two or three sentences describing the pose-specific gesture (waving for *welcome*, hand-on-chin for *thinking*, etc.). Self-contained prompts matter — image generators do not reliably maintain character identity across a session.  If you use a tool such as the ChatGPT image generator, generate all
+the images in a single session.
+4. **Generate, trim, save.** Run each prompt through an image generator (DALL-E, Midjourney, Imagen, Firefly), trim padding, save as a transparent PNG.  Make sure there is not a lot of extra padding
+around the mascot image.  Use the trim extra padding Python script to remove any extra padding around
+the mascot image.  Double check that the images use a transparent background.
 5. **Wire into the book.** Copy the PNGs into `docs/img/mascot/` and reference them from chapter markdown using a small shortcode or admonition pattern.
 
-The expensive step is **#3 and #4**. Getting seven poses that look like the same character — same proportions, same eye color, same prop placement — typically takes many regenerations and several rounds of prompt tightening. This is where most of the cost lives.
+The expensive step is **#3 and #4**. Getting seven poses that look like the same character — same proportions, same eye color, same prop placement (hats, ties, necklaces) — typically takes many regenerations and several rounds of prompt tightening. This is where most of the cost lives.
 
 ## Token costs and image-generation costs
 

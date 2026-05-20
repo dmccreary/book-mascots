@@ -15,6 +15,13 @@ Use this page to:
 
 The six themed admonition classes defined in `mascot.css` (`mascot-welcome`, `mascot-thinking`, `mascot-tip`, `mascot-warning`, `mascot-celebration`, `mascot-encourage`) pair a colored title bar with the floated mascot image. Use them anywhere a Material admonition would feel appropriate.
 
+!!! mascot-neutral "Neutral Pose"
+    <img src="../mascots/intelligent-textbooks/axiom-neutral.png" class="mascot-admonition-img" alt="Axiom neutral pose">
+    The *neutral* pose is used as the site logo in the upper left corner of the
+    pages and for general situations where
+    no specific emotion is needed.  It can also be used in a listing of the mascots
+    or list of textbooks.
+
 !!! mascot-welcome "Welcome to the chapter"
     <img src="../mascots/intelligent-textbooks/axiom-welcome.png" class="mascot-admonition-img" alt="Axiom welcoming">
     Welcome to the chapter. The *welcome* pose belongs at the top of a new chapter or unit. Axiom is waving and looking the reader in the eye — a small, deliberate signal that we're starting fresh and that the reader is in good hands.

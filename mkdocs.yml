@@ -14,41 +14,49 @@ nav:
   - Home: index.md
   - About: about.md
   - Mascot Image Quality: mascot-image-quality.md
-  - Mascot Effectiveness Research: mascot-effectivness.md
+  - Mascot Effectiveness Research: mascot-effectiveness.md
   - Gender-Neutral Names: gender-neutral-names.md
-  - Mascot Test: mascot-test.md
+  - Mascot Test Page: mascot-test-page.md
   - Mascot Gallery: list-mascots.md
   - Mascot Montage: mascot-montage.md
-  - Mascot Ideas: mascot-ideas.md
+  - Mascot Species Directory: mascot-species-directory.md
   - Mascots:
-      - Beaver – Bailey (Ecology): mascots/ecology/index.md
-      - Cat – Catalyst (Chemistry): mascots/chemistry/index.md
-      - Elephant – Bloom (Learning Sciences): mascots/learning-sciences/index.md
-      - Ferret – Fermi (Quantum Computing): mascots/quantum-computing/index.md
-      - Fox – Ferris (Economics): mascots/economics-course/index.md
-      - Fox – Sentinel (Cybersecurity): mascots/cybersecurity/index.md
-      - Fruit Fly – Dottie (Genetics): mascots/genetics/index.md
-      - Honey Bee – Buzz (Networking): mascots/networking/index.md
-      - Hummingbird – Iris (Info Systems): mascots/information-systems/index.md
-      - Octopus – Olli (Bioinformatics): mascots/bioinformatics/index.md
-      - Otter – Maka (Digital Citizenship): mascots/digital-citizenship/index.md
-      - Owl – Axiom (Textbooks): mascots/intelligent-textbooks/index.md
-      - Owl – Sofia (Knowledge): mascots/theory-of-knowledge/index.md
-      - Parrot – Polly (Prompting): mascots/prompt-class/index.md
-      - Peacock – Percy (Infographics): mascots/infographics/index.md
-      - Raccoon – Rex (Blockchain): mascots/blockchain/index.md
-      - Raccoon – Rick (Functions): mascots/functions/index.md
-      - Red Panda – Pemba (Token): mascots/token-efficiency/index.md
-      - Squirrel – Sylvia (Finance): mascots/personal-finance/index.md
-      - Squirrel – Sylvia (Statistics): mascots/statistics-course/index.md
-      - Tortoise – Chronos (History): mascots/ancient-history/index.md
-      - Tree Frog – Gregor (Biology): mascots/biology/index.md
-      - Tree Frog – Mossby (Moss): mascots/moss/index.md
-      - Unicorn – Sparkle: mascots/unicorns/index.md
-      - "— Abstract – Tokie (Dementia)": mascots/Dementia/index.md
-      - "— Explorer – Delta (Calculus)": mascots/calculus/index.md
-      - "— Lightbulb – Sparky (Circuits)": mascots/circuits/index.md
-      - "— Robot – Prema (Pre-Calc)": mascots/pre-calc/index.md
+      - 3D Printing Course: mascots/3d-printing-course/index.md
+      - Ancient History: mascots/ancient-history/index.md
+      - Bioinformatics: mascots/bioinformatics/index.md
+      - Biology: mascots/biology/index.md
+      - Blockchain: mascots/blockchain/index.md
+      - Business: mascots/business/index.md
+      - Calculus: mascots/calculus/index.md
+      - Chemistry: mascots/chemistry/index.md
+      - Circuits: mascots/circuits/index.md
+      - Context Graph: mascots/context-graph/index.md
+      - Cybersecurity: mascots/cybersecurity/index.md
+      - Dementia: mascots/Dementia/index.md
+      - Digital Citizenship: mascots/digital-citizenship/index.md
+      - Ecology: mascots/ecology/index.md
+      - Economics Course: mascots/economics-course/index.md
+      - Functions: mascots/functions/index.md
+      - Genetics: mascots/genetics/index.md
+      - Infographics: mascots/infographics/index.md
+      - Information Systems: mascots/information-systems/index.md
+      - Intelligent Textbooks: mascots/intelligent-textbooks/index.md
+      - Learning Sciences: mascots/learning-sciences/index.md
+      - Mini Mba For Startups: mascots/mini-mba-for-startups/index.md
+      - Moss: mascots/moss/index.md
+      - Networking: mascots/networking/index.md
+      - Personal Finance: mascots/personal-finance/index.md
+      - Pre Calc: mascots/pre-calc/index.md
+      - Prompt Class: mascots/prompt-class/index.md
+      - Quantum Computing: mascots/quantum-computing/index.md
+      - Selecting the Right Database: mascots/right-database/index.md
+      - Statistics Course: mascots/statistics-course/index.md
+      - Theory Of Knowledge: mascots/theory-of-knowledge/index.md
+      - Token Efficiency: mascots/token-efficiency/index.md
+      - U.S. Government: mascots/us-government/index.md
+      - U.S. History: mascots/us-history/index.md
+      - Unicorns: mascots/unicorns/index.md
+      - xAPI Course: mascots/xapi-course/index.md
   - References: references.md
   - License: license.md
   - Contact: contact.md

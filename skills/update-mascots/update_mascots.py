@@ -35,10 +35,29 @@ CANONICAL_POSE_ORDER = [
 
 # Mascot-name display overrides for sources whose prompt files don't parse cleanly.
 OVERRIDES: dict[str, str] = {
+    "3d-printing-course": "Benchy the Tugboat",
     "cybersecurity": "Sentinel the Fox",
     "intelligent-textbooks": "Axiom the Owl",
     "pre-calc": "Prema",
 }
+
+# Display-title overrides for slugs whose naive title-case rendering looks wrong
+# (initialisms, acronyms, possessives). Used for the per-mascot page H1, the
+# gallery card label, and the mkdocs nav entry.
+TITLE_OVERRIDES: dict[str, str] = {
+    "right-database": "Selecting the Right Database",
+    "us-government": "U.S. Government",
+    "us-history": "U.S. History",
+    "xapi-course": "xAPI Course",
+}
+
+# Files in a sibling mascot dir that are NOT mascot poses — favicons, Android
+# Chrome app icons, Apple touch icons, social-graph previews, square logos.
+# Filtered out at copy time and excluded from the per-mascot index.md gallery.
+ICON_SKIP_RE = re.compile(
+    r"^(favicon|android-chrome|apple-touch-icon|.*square|social-graph-preview)",
+    re.I,
+)
 
 # Candidate locations (relative to a sibling project root) where the mascot PNGs live.
 MASCOT_DIR_CANDIDATES = [
@@ -104,6 +123,11 @@ def title_case_slug(slug: str) -> str:
     return slug.replace("-", " ").replace("_", " ").title()
 
 
+def display_title(slug: str) -> str:
+    """Human-facing book title for a slug, honoring TITLE_OVERRIDES."""
+    return TITLE_OVERRIDES.get(slug, title_case_slug(slug))
+
+
 def extract_character_name(prompt_path: Path | None) -> str | None:
     if not prompt_path or not prompt_path.is_file():
         return None
@@ -117,13 +141,13 @@ def extract_character_name(prompt_path: Path | None) -> str | None:
         title = re.split(r"\s+[—–-]\s+", title, maxsplit=1)[0]
         title = re.sub(r"^Mascot:\s*", "", title, flags=re.I).strip(": ").strip()
         title = re.sub(
-            r"^(AI\s+)?Image\s+(Generation\s+)?Prompts?\s+(?:for|of)\s+",
+            r"^(?:Mascot\s+)?(?:AI\s+)?Image\s+(?:Generation\s+)?Prompts?\s*(?:for|of|[:—–-])\s+",
             "",
             title,
             flags=re.I,
         )
         title = re.sub(
-            r"\s+(Mascot\s+Image\s+Prompts?|Mascot|Image\s+Prompts?|AI\s+Image.*)$",
+            r"\s+((?:Pedagogical\s+)?Mascot\s+Pose\s+Guide|Mascot\s+Image\s+Prompts?|Mascot|Image\s+Prompts?|AI\s+Image.*)$",
             "",
             title,
             flags=re.I,
@@ -187,12 +211,8 @@ def write_index_md(dest_dir: Path, slug: str) -> None:
         (p.name for p in dest_dir.glob("*.png")),
         key=canonical_pose_key,
     )
-    skip = re.compile(
-        r"^(favicon|android-chrome|apple-touch-icon|.*square|social-graph-preview)",
-        re.I,
-    )
-    pose_files = [f for f in files if not skip.match(f)]
-    title = title_case_slug(slug)
+    pose_files = [f for f in files if not ICON_SKIP_RE.match(f)]
+    title = display_title(slug)
 
     lines = [
         f"# {title}",
@@ -220,6 +240,8 @@ def import_mascot(project: Path, mascot_dir: Path, slug: str) -> None:
     dest = MASCOTS_DIR / slug
     dest.mkdir(parents=True, exist_ok=True)
     for png in mascot_dir.glob("*.png"):
+        if ICON_SKIP_RE.match(png.name):
+            continue
         shutil.copy2(png, dest / png.name)
     prompt = find_prompt_file(project, mascot_dir)
     if prompt is not None:
@@ -227,44 +249,101 @@ def import_mascot(project: Path, mascot_dir: Path, slug: str) -> None:
     write_index_md(dest, slug)
 
 
-def regenerate_list_page() -> list[str]:
-    """Rewrite docs/list-mascots.md. Returns the slugs in the order they were emitted."""
-    slugs = sorted(
-        (d.name for d in MASCOTS_DIR.iterdir() if d.is_dir()), key=str.lower
-    )
-    out = [
-        "# Mascot Gallery",
-        "",
-        "Click any mascot below to view all of its poses.",
-        "",
-        '<div class="grid cards" markdown>',
-        "",
-    ]
+# Markers that delimit the script-managed grid in docs/list-mascots.md.
+# Only the content BETWEEN these markers is rewritten on each run; the H1,
+# CSS, intro paragraph, and anything after the grid are preserved verbatim.
+AUTO_BEGIN = "<!-- begin:auto -->"
+AUTO_END = "<!-- end:auto -->"
+
+# Bootstrap template used only when the file is missing entirely. Existing
+# files (with or without markers) keep all their custom prose; the marker
+# block is auto-migrated in on the first run after upgrade.
+LIST_PAGE_DEFAULT_PREAMBLE = """\
+# Mascot Gallery
+
+<style>
+@media screen and (min-width: 80em) {
+  .md-typeset .grid.cards { grid-template-columns: repeat(5, 220px); }
+}
+</style>
+
+The following list is sorted by the title of the intelligent textbook
+that contains the mascot.  Click any mascot below to view all of its poses.
+
+"""
+
+
+def _build_grid_block(slugs: list[str]) -> str:
+    """Return the markdown grid block (the content that goes between markers)."""
+    out: list[str] = ['<div class="grid cards" markdown>', ""]
     for slug in slugs:
         dest = MASCOTS_DIR / slug
         neutral = find_neutral(dest)
         if not neutral:
             continue
-        book_title = title_case_slug(slug)
+        book_title = display_title(slug)
         char = name_for(slug, dest)
         out += [
             f"-   **[{book_title}](mascots/{slug}/index.md)**",
             "",
-            f"    ![{char}](mascots/{slug}/{neutral}){{ width=200 }}",
+            f"    ![{char}](mascots/{slug}/{neutral}){{ width=220 }}",
             "",
             f"    {char}",
             "",
         ]
     out += ["</div>", ""]
-    LIST_PAGE.write_text("\n".join(out), encoding="utf-8")
+    return "\n".join(out)
+
+
+def regenerate_list_page() -> list[str]:
+    """Rewrite ONLY the auto-managed grid in docs/list-mascots.md.
+
+    Three cases, in order:
+      1. File has both AUTO_BEGIN and AUTO_END markers → replace only the
+         content between them. All other prose (H1, CSS, intro, footer) is
+         preserved verbatim.
+      2. File exists but has no markers, yet contains a `<div class="grid
+         cards" markdown>` block → auto-migrate by wrapping the existing
+         grid in markers, then replace the grid. One-time per file.
+      3. File does not exist (or has neither markers nor a grid block) →
+         bootstrap from LIST_PAGE_DEFAULT_PREAMBLE + grid + markers.
+    """
+    slugs = sorted(
+        (d.name for d in MASCOTS_DIR.iterdir() if d.is_dir()), key=str.lower
+    )
+    grid_block = _build_grid_block(slugs)
+    new_auto = f"{AUTO_BEGIN}\n{grid_block}{AUTO_END}\n"
+
+    if LIST_PAGE.is_file():
+        text = LIST_PAGE.read_text(encoding="utf-8")
+
+        marker_re = re.compile(
+            rf"{re.escape(AUTO_BEGIN)}.*?{re.escape(AUTO_END)}\n?",
+            re.DOTALL,
+        )
+        if marker_re.search(text):
+            new_text = marker_re.sub(lambda _m: new_auto, text, count=1)
+            LIST_PAGE.write_text(new_text, encoding="utf-8")
+            return slugs
+
+        grid_re = re.compile(
+            r'<div class="grid cards" markdown>.*?</div>\n?',
+            re.DOTALL,
+        )
+        if grid_re.search(text):
+            new_text = grid_re.sub(lambda _m: new_auto, text, count=1)
+            LIST_PAGE.write_text(new_text, encoding="utf-8")
+            return slugs
+
+    LIST_PAGE.write_text(LIST_PAGE_DEFAULT_PREAMBLE + new_auto, encoding="utf-8")
     return slugs
 
 
 def update_mkdocs_nav(slugs: list[str]) -> None:
     text = MKDOCS_YML.read_text(encoding="utf-8")
     nav_lines = ["  - Mascots:"]
-    for slug in sorted(slugs, key=lambda s: title_case_slug(s).lower()):
-        nav_lines.append(f"      - {title_case_slug(slug)}: mascots/{slug}/index.md")
+    for slug in sorted(slugs, key=lambda s: display_title(s).lower()):
+        nav_lines.append(f"      - {display_title(slug)}: mascots/{slug}/index.md")
     new_block = "\n".join(nav_lines)
 
     # Replace an existing "  - Mascots:" block, or append it under nav:.
