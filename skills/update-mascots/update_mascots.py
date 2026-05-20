@@ -402,6 +402,10 @@ def main() -> int:
         for slug, reason in skipped:
             print(f"  - {slug}: {reason}")
     print("Updated: docs/list-mascots.md, mkdocs.yml")
+    if new_imports:
+        print()
+        print("To refresh the similarity map after adding mascots, run:")
+        print("  python src/embeddings/compute_mascot_embeddings.py")
     return 0
 
 
