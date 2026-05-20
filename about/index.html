@@ -329,7 +329,7 @@
         <li class="md-nav__item">
   <a href="#why-pedagogical-mascots-matter" class="md-nav__link">
     <span class="md-ellipsis">
-      Why pedagogical mascots matter
+      Why Pedagogical Mascots Matter
     </span>
   </a>
   
@@ -415,7 +415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mascot-effectivness/" class="md-nav__link">
+      <a href="../mascot-effectiveness/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -455,11 +455,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../mascot-test/" class="md-nav__link">
+      <a href="../mascot-test-page/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Mascot Test
+    Mascot Test Page
   </span>
   
 
@@ -515,11 +515,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../mascot-ideas/" class="md-nav__link">
+      <a href="../mascot-species-directory/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Mascot Ideas
+    Mascot Species Directory
   </span>
   
 
@@ -1158,6 +1158,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../mascots/right-database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Selecting the Right Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../mascots/statistics-course/" class="md-nav__link">
         
   
@@ -1394,7 +1415,7 @@
         <li class="md-nav__item">
   <a href="#why-pedagogical-mascots-matter" class="md-nav__link">
     <span class="md-ellipsis">
-      Why pedagogical mascots matter
+      Why Pedagogical Mascots Matter
     </span>
   </a>
   
@@ -1465,7 +1486,7 @@
 
 <h1 id="about-book-mascots">About Book Mascots<a class="headerlink" href="#about-book-mascots" title="Permanent link">&para;</a></h1>
 <p>This site collects pedagogical mascots used across a family of intelligent textbooks. Each mascot is a small cartoon character with a fixed visual identity and a set of standard "poses" — neutral, welcome, thinking, tip, encouraging, warning, celebration — that authors drop into chapters to add personality and to give students consistent visual cues.</p>
-<h2 id="why-pedagogical-mascots-matter">Why pedagogical mascots matter<a class="headerlink" href="#why-pedagogical-mascots-matter" title="Permanent link">&para;</a></h2>
+<h2 id="why-pedagogical-mascots-matter">Why Pedagogical Mascots Matter<a class="headerlink" href="#why-pedagogical-mascots-matter" title="Permanent link">&para;</a></h2>
 <p>A mascot is not decoration. When used well, it does real instructional work.</p>
 <ul>
 <li><strong>Reduced cognitive load.</strong> A recurring character is a known visual landmark. When a student sees Olli the Octopus mid-chapter, they don't have to spend attention parsing a new illustration — they know who this is, and they know what kind of moment it signals.</li>
@@ -1480,12 +1501,16 @@
 <p>The workflow we use across these books is roughly:</p>
 <ol>
 <li><strong>Pick a character concept.</strong> Match the species, color palette, and props to the subject matter. <em>Bailey the Beaver</em> for ecology (a builder of habitats). <em>Sentinel the Fox</em> for cybersecurity ("trust, but verify"). <em>Delta</em> — a triangle robot — for calculus. The link between mascot and subject is part of what makes it memorable.</li>
-<li><strong>Write a Character Sheet.</strong> A short prose document — name, species, color hex codes, props, personality, "what the hands are doing," background rules. This is the source of truth that every pose prompt re-anchors to. Without it, drift across poses is guaranteed.</li>
-<li><strong>Author seven pose prompts.</strong> Each pose prompt embeds the full character sheet, then adds two or three sentences describing the pose-specific gesture (waving for <em>welcome</em>, hand-on-chin for <em>thinking</em>, etc.). Self-contained prompts matter — image generators do not reliably maintain character identity across a session.</li>
-<li><strong>Generate, trim, save.</strong> Run each prompt through an image generator (DALL-E, Midjourney, Imagen, Firefly), trim padding, save as a transparent PNG.</li>
+<li><strong>Write a Character Sheet.</strong> A short prose document — name, species, color hex codes, props, personality, "what the hands are doing," background rules. This is the source of truth that every pose prompt re-anchors to. Without it, drift across poses is guaranteed.  Be careful about any
+items that are being held in the hands.  The hands should be free for gesturing.</li>
+<li><strong>Author seven pose prompts.</strong> Each pose prompt embeds the full character sheet, then adds two or three sentences describing the pose-specific gesture (waving for <em>welcome</em>, hand-on-chin for <em>thinking</em>, etc.). Self-contained prompts matter — image generators do not reliably maintain character identity across a session.  If you use a tool such as the ChatGPT image generator, generate all
+the images in a single session.</li>
+<li><strong>Generate, trim, save.</strong> Run each prompt through an image generator (DALL-E, Midjourney, Imagen, Firefly), trim padding, save as a transparent PNG.  Make sure there is not a lot of extra padding
+around the mascot image.  Use the trim extra padding Python script to remove any extra padding around
+the mascot image.  Double check that the images use a transparent background.</li>
 <li><strong>Wire into the book.</strong> Copy the PNGs into <code>docs/img/mascot/</code> and reference them from chapter markdown using a small shortcode or admonition pattern.</li>
 </ol>
-<p>The expensive step is <strong>#3 and #4</strong>. Getting seven poses that look like the same character — same proportions, same eye color, same prop placement — typically takes many regenerations and several rounds of prompt tightening. This is where most of the cost lives.</p>
+<p>The expensive step is <strong>#3 and #4</strong>. Getting seven poses that look like the same character — same proportions, same eye color, same prop placement (hats, ties, necklaces) — typically takes many regenerations and several rounds of prompt tightening. This is where most of the cost lives.</p>
 <h2 id="token-costs-and-image-generation-costs">Token costs and image-generation costs<a class="headerlink" href="#token-costs-and-image-generation-costs" title="Permanent link">&para;</a></h2>
 <p>A complete mascot set has real cost behind it, and the cost is dominated by image generation rather than text tokens.</p>
 <ul>
