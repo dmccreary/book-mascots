@@ -611,6 +611,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#windows-powershell-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Windows / PowerShell version
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Windows / PowerShell version">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#script-source_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Script source
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1608,6 +1641,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#windows-powershell-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Windows / PowerShell version
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Windows / PowerShell version">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#script-source_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Script source
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1848,6 +1914,110 @@ image with a colored banner), see the styling in
 repository. See
 <a href="https://github.com/dmccreary/book-mascots/blob/main/LICENSE">the project license</a>
 for terms; attribution back to the source project is appreciated.</p>
+<h2 id="windows-powershell-version">Windows / PowerShell version<a class="headerlink" href="#windows-powershell-version" title="Permanent link">&para;</a></h2>
+<p>A PowerShell equivalent for Windows users. Behavior is identical to
+the bash script — single positional slug argument, downloads the 7
+poses plus <code>image-prompts.md</code> into <code>docs/img/mascot/</code>, saves with
+bare filenames. The script lives at
+<a href="https://github.com/dmccreary/book-mascots/blob/main/src/install/install-mascot.ps1">src/install/install-mascot.ps1</a>.</p>
+<h3 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h3>
+<p>From the root of your mkdocs project, in a PowerShell session:</p>
+<div class="highlight"><pre><span></span><code><span class="c"># Option A — inspect first, then run (recommended):</span>
+<span class="nb">Invoke-WebRequest</span> <span class="p">`</span>
+  <span class="n">-Uri</span> <span class="n">https</span><span class="p">://</span><span class="n">raw</span><span class="p">.</span><span class="n">githubusercontent</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">dmccreary</span><span class="p">/</span><span class="n">book-mascots</span><span class="p">/</span><span class="n">main</span><span class="p">/</span><span class="n">src</span><span class="p">/</span><span class="n">install</span><span class="p">/</span><span class="nb">install-mascot</span><span class="p">.</span><span class="n">ps1</span> <span class="p">`</span>
+  <span class="n">-OutFile</span> <span class="nb">install-mascot</span><span class="p">.</span><span class="n">ps1</span>
+<span class="p">./</span><span class="nb">install-mascot</span><span class="p">.</span><span class="n">ps1</span> <span class="n">intelligent-textbooks</span>
+
+<span class="c"># Option B — download to temp, run once, no local copy:</span>
+<span class="nv">$tmp</span> <span class="p">=</span> <span class="nb">Join-Path</span> <span class="nv">$env:TEMP</span> <span class="s1">&#39;install-mascot.ps1&#39;</span>
+<span class="nb">iwr </span><span class="n">https</span><span class="p">://</span><span class="n">raw</span><span class="p">.</span><span class="n">githubusercontent</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">dmccreary</span><span class="p">/</span><span class="n">book-mascots</span><span class="p">/</span><span class="n">main</span><span class="p">/</span><span class="n">src</span><span class="p">/</span><span class="n">install</span><span class="p">/</span><span class="nb">install-mascot</span><span class="p">.</span><span class="n">ps1</span> <span class="n">-OutFile</span> <span class="nv">$tmp</span> <span class="n">-UseBasicParsing</span>
+<span class="p">&amp;</span> <span class="nv">$tmp</span> <span class="n">intelligent-textbooks</span>
+</code></pre></div>
+<p>If PowerShell refuses to run the script with an <em>execution policy</em>
+error, unblock it for the current user only:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">Set-ExecutionPolicy</span> <span class="n">-Scope</span> <span class="n">CurrentUser</span> <span class="n">-ExecutionPolicy</span> <span class="n">RemoteSigned</span>
+</code></pre></div>
+<h3 id="script-source_1">Script source<a class="headerlink" href="#script-source_1" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="cm">&lt;#</span>
+<span class="sd">.SYNOPSIS</span>
+<span class="cm">  Install a single mascot&#39;s pose images into the local mkdocs project.</span>
+
+<span class="sd">.PARAMETER</span><span class="cm"> Slug</span>
+<span class="cm">  The mascot slug (e.g. &quot;intelligent-textbooks&quot;, &quot;business&quot;,</span>
+<span class="cm">  &quot;us-government&quot;). Find slugs at:</span>
+<span class="cm">  https://dmccreary.github.io/book-mascots/install-mascot/</span>
+
+<span class="sd">.EXAMPLE</span>
+<span class="cm">  ./install-mascot.ps1 intelligent-textbooks</span>
+<span class="cm">#&gt;</span>
+
+<span class="k">param</span><span class="p">(</span>
+    <span class="p">[</span><span class="k">Parameter</span><span class="p">(</span><span class="k">Mandatory</span><span class="p">,</span> <span class="k">Position</span> <span class="p">=</span> <span class="n">0</span><span class="p">)]</span>
+    <span class="no">[string]</span><span class="nv">$Slug</span>
+<span class="p">)</span>
+
+<span class="nv">$ErrorActionPreference</span> <span class="p">=</span> <span class="s1">&#39;Stop&#39;</span>
+
+<span class="nv">$BaseUrl</span> <span class="p">=</span> <span class="s1">&#39;https://dmccreary.github.io/book-mascots/mascots&#39;</span>
+<span class="nv">$Target</span>  <span class="p">=</span> <span class="s1">&#39;docs/img/mascot&#39;</span>
+<span class="nv">$Poses</span>   <span class="p">=</span> <span class="p">@(</span><span class="s1">&#39;neutral&#39;</span><span class="p">,</span> <span class="s1">&#39;welcome&#39;</span><span class="p">,</span> <span class="s1">&#39;thinking&#39;</span><span class="p">,</span> <span class="s1">&#39;tip&#39;</span><span class="p">,</span>
+             <span class="s1">&#39;encouraging&#39;</span><span class="p">,</span> <span class="s1">&#39;warning&#39;</span><span class="p">,</span> <span class="s1">&#39;celebration&#39;</span><span class="p">)</span>
+
+<span class="c"># A handful of mascots use a name-prefix on each pose file (e.g.,</span>
+<span class="c"># axiom-neutral.png instead of neutral.png). Map those slugs to the</span>
+<span class="c"># prefix used in their source filenames. Extend as needed.</span>
+<span class="k">function</span> <span class="nb">Get-PosePrefix</span><span class="p">(</span><span class="no">[string]</span><span class="nv">$s</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">switch</span> <span class="p">(</span><span class="nv">$s</span><span class="p">)</span> <span class="p">{</span>
+        <span class="s1">&#39;intelligent-textbooks&#39;</span> <span class="p">{</span> <span class="k">return</span> <span class="s1">&#39;axiom-&#39;</span> <span class="p">}</span>
+        <span class="k">default</span>                 <span class="p">{</span> <span class="k">return</span> <span class="s1">&#39;&#39;</span> <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nv">$Prefix</span> <span class="p">=</span> <span class="nb">Get-PosePrefix</span> <span class="nv">$Slug</span>
+
+<span class="nb">New-Item</span> <span class="n">-ItemType</span> <span class="n">Directory</span> <span class="n">-Path</span> <span class="nv">$Target</span> <span class="n">-Force</span> <span class="p">|</span> <span class="nb">Out-Null</span>
+<span class="nb">Write-Host</span> <span class="s2">&quot;Installing mascot &#39;$Slug&#39; to $Target/&quot;</span>
+
+<span class="nv">$errors</span> <span class="p">=</span> <span class="n">0</span>
+<span class="k">foreach</span> <span class="p">(</span><span class="nv">$pose</span> <span class="k">in</span> <span class="nv">$Poses</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nv">$url</span> <span class="p">=</span> <span class="s2">&quot;$BaseUrl/$Slug/$Prefix$pose.png&quot;</span>
+    <span class="nv">$out</span> <span class="p">=</span> <span class="nb">Join-Path</span> <span class="nv">$Target</span> <span class="s2">&quot;$pose.png&quot;</span>
+    <span class="k">try</span> <span class="p">{</span>
+        <span class="nb">Invoke-WebRequest</span> <span class="n">-Uri</span> <span class="nv">$url</span> <span class="n">-OutFile</span> <span class="nv">$out</span> <span class="n">-UseBasicParsing</span> <span class="p">`</span>
+            <span class="n">-ErrorAction</span> <span class="n">Stop</span> <span class="p">|</span> <span class="nb">Out-Null</span>
+        <span class="nb">Write-Host</span> <span class="s2">&quot;  ok  $pose.png&quot;</span>
+    <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+        <span class="nb">Write-Host</span> <span class="s2">&quot;  ERR $pose.png  (tried $url)&quot;</span> <span class="n">-ForegroundColor</span> <span class="n">Red</span>
+        <span class="nv">$errors</span><span class="p">++</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c"># image-prompts.md is reference material; absence is non-fatal.</span>
+<span class="nv">$promptsUrl</span> <span class="p">=</span> <span class="s2">&quot;$BaseUrl/$Slug/image-prompts.md&quot;</span>
+<span class="nv">$promptsOut</span> <span class="p">=</span> <span class="nb">Join-Path</span> <span class="nv">$Target</span> <span class="s1">&#39;image-prompts.md&#39;</span>
+<span class="k">try</span> <span class="p">{</span>
+    <span class="nb">Invoke-WebRequest</span> <span class="n">-Uri</span> <span class="nv">$promptsUrl</span> <span class="n">-OutFile</span> <span class="nv">$promptsOut</span> <span class="p">`</span>
+        <span class="n">-UseBasicParsing</span> <span class="n">-ErrorAction</span> <span class="n">Stop</span> <span class="p">|</span> <span class="nb">Out-Null</span>
+    <span class="nb">Write-Host</span> <span class="s2">&quot;  ok  image-prompts.md&quot;</span>
+<span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+    <span class="nb">Write-Host</span> <span class="s2">&quot;  --  image-prompts.md not available (non-fatal)&quot;</span>
+    <span class="nb">Remove-Item</span> <span class="n">-Path</span> <span class="nv">$promptsOut</span> <span class="n">-ErrorAction</span> <span class="n">SilentlyContinue</span>
+<span class="p">}</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nv">$errors</span> <span class="o">-gt</span> <span class="n">0</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">Write-Host</span> <span class="s1">&#39;&#39;</span>
+    <span class="nb">Write-Host</span> <span class="s2">&quot;$errors pose(s) failed to download.&quot;</span> <span class="n">-ForegroundColor</span> <span class="n">Red</span>
+    <span class="nb">Write-Host</span> <span class="s2">&quot;Check that &#39;$Slug&#39; is a real mascot slug at:&quot;</span>
+    <span class="nb">Write-Host</span> <span class="s1">&#39;  https://dmccreary.github.io/book-mascots/install-mascot/&#39;</span>
+    <span class="n">exit</span> <span class="n">1</span>
+<span class="p">}</span>
+
+<span class="nb">Write-Host</span> <span class="s1">&#39;&#39;</span>
+<span class="nb">Write-Host</span> <span class="s2">&quot;Installed &#39;$Slug&#39; to $Target/&quot;</span>
+</code></pre></div>
+<p>PowerShell 5.1 (the version shipped with Windows 10/11) and
+PowerShell 7+ are both supported. The <code>-UseBasicParsing</code> flag is
+required on 5.1 and harmless on 7+, so it's left in for portability.</p>
 
 
 

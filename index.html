@@ -268,6 +268,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
@@ -277,6 +288,61 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mascot-image-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mascot Image Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrations-with-intelligent-book-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrations with Intelligent Book Skills
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ways-to-view-the-mascots" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ways to View The Mascots
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1360,6 +1426,50 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mascot-image-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mascot Image Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrations-with-intelligent-book-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrations with Intelligent Book Skills
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ways-to-view-the-mascots" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ways to View The Mascots
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1382,27 +1492,46 @@ intelligent textbook projects.  This repository is designed to be used with an A
 to help you select an existing mascot design to match to your textbook or
 to quickly create variations of existing designs using a token-efficient process.
 This process can be done even if you do not have an API key to an image
-generation LLM.  This process enlarges the number of textbook generators that use mascots
-in their books without the need for expensive image generation tools.
-It also has skills that can generate new mascots using a high-quality image prompts.</p>
+generation LLM.  This process enlarges the number of users (teachers) that can use
+textbook generators that include mascots
+in their books without the need for "expensive" image generation tools.
+It also has skills that can generate new mascots using a high-quality image prompts.
+In this case "expensive" would be around $3 USD per textbook for using an image
+generation API.  This adds up when teachers need to generate many textbooks.</p>
+<h2 id="mascot-image-structure">Mascot Image Structure<a class="headerlink" href="#mascot-image-structure" title="Permanent link">&para;</a></h2>
+<p>The intelligent textbooks skill libraries use mascot images placed in the directory `PROJECT/img/mascot'</p>
 <p>Each mascot has a set of at least seven poses:</p>
 <ol>
-<li>neutral</li>
-<li>welcome</li>
-<li>tip</li>
-<li>thinking</li>
-<li>encouraging</li>
-<li>warning</li>
-<li>celebration</li>
+<li>neutral.png</li>
+<li>welcome.png</li>
+<li>tip.png</li>
+<li>thinking.png</li>
+<li>encouraging.png</li>
+<li>warning.png</li>
+<li>celebration.png</li>
 </ol>
+<p>All images MUST be PNG files with transparent backgrounds (alpha channel).</p>
+<p>We provide installation scripts to install the mascot images. There is a linux version
+that runs on any Mac, Linux, or Windows System for Linus (WSL) or Windows PowerShell
+version that runs on some Windows systems.  You must have permissions to run these
+installation scripts.</p>
+<h2 id="integrations-with-intelligent-book-skills">Integrations with Intelligent Book Skills<a class="headerlink" href="#integrations-with-intelligent-book-skills" title="Permanent link">&para;</a></h2>
 <p>Our chapter content generator skill looks for a document called a "character-sheet.md"
 that will provide guidance on how the  mascot can be
 used to add personality and visual cues throughout a book.  </p>
 <p>If you do not have a tool that
 generates images (text to image generator) we encourage you to reuse these mascots for your
 textbook.  They are Licensed under <a href="license/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.  They are free to use in your classrooms but
-you cannot resell them.</p>
-<p><a href="list-mascots/">Browse the mascot gallery →</a></p>
+you cannot resell them for commercial purposes.</p>
+<h2 id="ways-to-view-the-mascots">Ways to View The Mascots<a class="headerlink" href="#ways-to-view-the-mascots" title="Permanent link">&para;</a></h2>
+<p>We provide three ways to view the mascots:</p>
+<ol>
+<li><a href="list-mascots/">Browse the mascot gallery →</a> - this is just an alphabetical listing of all the mascots.</li>
+<li><a href="mascot-species-directory/">Listing by Animal/Robot Name (species directory)</a></li>
+<li><a href="mascot-similarity/">Similarity Map</a> - 2D map of icons grouped by similarity - note the load times are sometimes longer for this view</li>
+</ol>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<p><a href="install-mascot/">Installation</a></p>
 
 
 
