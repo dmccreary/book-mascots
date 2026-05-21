@@ -7,6 +7,9 @@ sentence-transformers' clip-ViT-B-32, projects 512-dim -> 2D via UMAP
 docs/data/mascot-embeddings.json for consumption by the mascot-similarity
 page.
 
+Setup (conda-first — see src/embeddings/README.md):
+    conda env update -n mkdocs -f src/embeddings/environment.yml
+
 Run from anywhere:
     python src/embeddings/compute_mascot_embeddings.py
 """

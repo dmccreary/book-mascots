@@ -20,6 +20,8 @@ nav:
   - Mascot Gallery: list-mascots.md
   - Mascot Montage: mascot-montage.md
   - Mascot Species Directory: mascot-species-directory.md
+  - Mascot Similarity Map: mascot-similarity.md
+  - Mascot Installation: install-mascot.md
   - Mascots:
       - 3D Printing Course: mascots/3d-printing-course/index.md
       - Ancient History: mascots/ancient-history/index.md

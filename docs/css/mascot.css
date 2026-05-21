@@ -135,3 +135,44 @@
   object-fit: contain;
   pointer-events: none;  /* prevent glightbox zoom on mascot icons */
 }
+
+/* ============================================================
+   Dark-mode overrides (mkdocs-material's "slate" scheme)
+   ------------------------------------------------------------
+   The light-mode rules above hard-code pale pastel backgrounds
+   (#e8f5e9, #ffebee, etc.) but do not set the body text color.
+   In dark mode mkdocs-material flips body text to near-white,
+   which is unreadable on the pale pastel. We fix that by
+   substituting darker, hue-preserved versions of each background
+   so the inherited light text remains legible. Title bars stay
+   as-is (white text on saturated mid-tone reads fine in both
+   modes).
+   ============================================================ */
+[data-md-color-scheme="slate"] .md-typeset .admonition.mascot-welcome,
+[data-md-color-scheme="slate"] .md-typeset details.mascot-welcome {
+  background-color: #1f3a23;     /* dark forest */
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.mascot-thinking,
+[data-md-color-scheme="slate"] .md-typeset details.mascot-thinking {
+  background-color: #2c2520;     /* dark brown  */
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.mascot-tip,
+[data-md-color-scheme="slate"] .md-typeset details.mascot-tip {
+  background-color: #14332e;     /* dark teal   */
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.mascot-warning,
+[data-md-color-scheme="slate"] .md-typeset details.mascot-warning {
+  background-color: #3a1f22;     /* dark crimson */
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.mascot-celebration,
+[data-md-color-scheme="slate"] .md-typeset details.mascot-celebration {
+  background-color: #2e1f3a;     /* dark purple */
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.mascot-encourage,
+[data-md-color-scheme="slate"] .md-typeset details.mascot-encourage {
+  background-color: #15293f;     /* dark blue   */
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.mascot-neutral,
+[data-md-color-scheme="slate"] .md-typeset details.mascot-neutral {
+  background-color: #2a3036;     /* dark slate  */
+}

@@ -13,11 +13,14 @@ Hover any mascot for its name and textbook title; click any mascot to
 open its full page. Use the Plotly toolbar in the top-right to pan,
 zoom, or reset the view.
 
-<div id="map" style="width: 100%; height: 80vh; min-height: 600px;"></div>
+<div id="map" style="width: 100%; height: 80vh; min-height: 600px; border: solid blue 2px; background: aliceblue"></div>
 
 <script src="https://cdn.plot.ly/plotly-basic-2.35.2.min.js"></script>
 <script>
-  fetch("data/mascot-embeddings.json")
+  // The page lives at /<base>/mascot-similarity/ (mkdocs default
+  // use_directory_urls=true), so all data + image paths need a "../"
+  // prefix to escape the page's own directory.
+  fetch("../data/mascot-embeddings.json")
     .then(r => r.json())
     .then(renderMap)
     .catch(e => {
@@ -41,7 +44,7 @@ zoom, or reset the view.
     };
     const layout = {
       images: pts.map(p => ({
-        source: p.neutral,
+        source: "../" + p.neutral,
         x: p.x, y: p.y,
         sizex: 50, sizey: 50,
         xanchor: "center", yanchor: "middle",
@@ -57,10 +60,16 @@ zoom, or reset the view.
         visible: false,
         range: [0, data.viewport[1]],
       },
+      title: {
+        text: "Mascot Similarity",
+        x: 0.5,
+        xanchor: "center",
+        font: { color: "black", size: 22 },
+      },
       hovermode: "closest",
-      margin: { l: 20, r: 20, t: 20, b: 20 },
+      margin: { l: 20, r: 20, t: 60, b: 20 },
       dragmode: "pan",
-      plot_bgcolor: "rgba(0,0,0,0)",
+      plot_bgcolor: "aliceblue",
       paper_bgcolor: "rgba(0,0,0,0)",
     };
     Plotly.newPlot("map", [trace], layout, {
@@ -70,7 +79,7 @@ zoom, or reset the view.
     });
     document.getElementById("map").on("plotly_click", (e) => {
       const slug = e.points[0].customdata[0];
-      window.location.href = `mascots/${slug}/`;
+      window.location.href = `../mascots/${slug}/`;
     });
   }
 </script>
