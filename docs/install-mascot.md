@@ -253,3 +253,120 @@ Mascots are released under the same license as the book-mascots
 repository. See
 [the project license](https://github.com/dmccreary/book-mascots/blob/main/LICENSE)
 for terms; attribution back to the source project is appreciated.
+
+## Windows / PowerShell version
+
+A PowerShell equivalent for Windows users. Behavior is identical to
+the bash script — single positional slug argument, downloads the 7
+poses plus `image-prompts.md` into `docs/img/mascot/`, saves with
+bare filenames. The script lives at
+[src/install/install-mascot.ps1](https://github.com/dmccreary/book-mascots/blob/main/src/install/install-mascot.ps1).
+
+### Usage
+
+From the root of your mkdocs project, in a PowerShell session:
+
+```powershell
+# Option A — inspect first, then run (recommended):
+Invoke-WebRequest `
+  -Uri https://raw.githubusercontent.com/dmccreary/book-mascots/main/src/install/install-mascot.ps1 `
+  -OutFile install-mascot.ps1
+./install-mascot.ps1 intelligent-textbooks
+
+# Option B — download to temp, run once, no local copy:
+$tmp = Join-Path $env:TEMP 'install-mascot.ps1'
+iwr https://raw.githubusercontent.com/dmccreary/book-mascots/main/src/install/install-mascot.ps1 -OutFile $tmp -UseBasicParsing
+& $tmp intelligent-textbooks
+```
+
+If PowerShell refuses to run the script with an *execution policy*
+error, unblock it for the current user only:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+### Script source
+
+```powershell
+<#
+.SYNOPSIS
+  Install a single mascot's pose images into the local mkdocs project.
+
+.PARAMETER Slug
+  The mascot slug (e.g. "intelligent-textbooks", "business",
+  "us-government"). Find slugs at:
+  https://dmccreary.github.io/book-mascots/install-mascot/
+
+.EXAMPLE
+  ./install-mascot.ps1 intelligent-textbooks
+#>
+
+param(
+    [Parameter(Mandatory, Position = 0)]
+    [string]$Slug
+)
+
+$ErrorActionPreference = 'Stop'
+
+$BaseUrl = 'https://dmccreary.github.io/book-mascots/mascots'
+$Target  = 'docs/img/mascot'
+$Poses   = @('neutral', 'welcome', 'thinking', 'tip',
+             'encouraging', 'warning', 'celebration')
+
+# A handful of mascots use a name-prefix on each pose file (e.g.,
+# axiom-neutral.png instead of neutral.png). Map those slugs to the
+# prefix used in their source filenames. Extend as needed.
+function Get-PosePrefix([string]$s) {
+    switch ($s) {
+        'intelligent-textbooks' { return 'axiom-' }
+        default                 { return '' }
+    }
+}
+
+$Prefix = Get-PosePrefix $Slug
+
+New-Item -ItemType Directory -Path $Target -Force | Out-Null
+Write-Host "Installing mascot '$Slug' to $Target/"
+
+$errors = 0
+foreach ($pose in $Poses) {
+    $url = "$BaseUrl/$Slug/$Prefix$pose.png"
+    $out = Join-Path $Target "$pose.png"
+    try {
+        Invoke-WebRequest -Uri $url -OutFile $out -UseBasicParsing `
+            -ErrorAction Stop | Out-Null
+        Write-Host "  ok  $pose.png"
+    } catch {
+        Write-Host "  ERR $pose.png  (tried $url)" -ForegroundColor Red
+        $errors++
+    }
+}
+
+# image-prompts.md is reference material; absence is non-fatal.
+$promptsUrl = "$BaseUrl/$Slug/image-prompts.md"
+$promptsOut = Join-Path $Target 'image-prompts.md'
+try {
+    Invoke-WebRequest -Uri $promptsUrl -OutFile $promptsOut `
+        -UseBasicParsing -ErrorAction Stop | Out-Null
+    Write-Host "  ok  image-prompts.md"
+} catch {
+    Write-Host "  --  image-prompts.md not available (non-fatal)"
+    Remove-Item -Path $promptsOut -ErrorAction SilentlyContinue
+}
+
+if ($errors -gt 0) {
+    Write-Host ''
+    Write-Host "$errors pose(s) failed to download." -ForegroundColor Red
+    Write-Host "Check that '$Slug' is a real mascot slug at:"
+    Write-Host '  https://dmccreary.github.io/book-mascots/install-mascot/'
+    exit 1
+}
+
+Write-Host ''
+Write-Host "Installed '$Slug' to $Target/"
+```
+
+PowerShell 5.1 (the version shipped with Windows 10/11) and
+PowerShell 7+ are both supported. The `-UseBasicParsing` flag is
+required on 5.1 and harmless on 7+, so it's left in for portability.
