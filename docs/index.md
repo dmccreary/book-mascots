@@ -58,8 +58,13 @@ We provide three ways to view the mascots:
 2. [Listing by Animal/Robot Name (species directory)](./mascot-species-directory.md)
 3. [Similarity Map](./mascot-similarity.md) - 2D map of icons grouped by similarity - note the load times are sometimes longer for this view
 
-## Installation
+## Installation Scripts
 
-[Installation](./install-mascot.md)
+We provide both a Linux Shell and a Windows Powershell(TM) versions
+of scripts that install the seven images into the `img/mascot` directory
+of your project.  Note that the installation scripts do not generate a
+character sheet file.  This is done by the intelligent textbook skills.
+
+[Mascot Images Installation Scripts](./install-mascot.md)
 
 

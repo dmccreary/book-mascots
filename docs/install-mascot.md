@@ -229,6 +229,13 @@ For richer pose-based admonitions (themed callouts that pair a mascot
 image with a colored banner), see the styling in
 [docs/css/mascot.css](https://github.com/dmccreary/book-mascots/blob/main/docs/css/mascot.css).
 
+## Other Required Files
+
+These scripts ONLY install the PNG image files.  They
+do not install the `img/mascot/character-sheet.md` file, the `css/mascot.css` or the
+`learning/graph/mascot-test.md` files.  These files are installed by
+the `/book-installer` skill using the mascot generation guide.
+
 ## Troubleshooting
 
 - **`ERR neutral.png (tried …)`** — the slug is misspelled or the
