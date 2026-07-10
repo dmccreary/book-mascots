@@ -1,0 +1,39 @@
+# Butterfly Mascot
+
+**Butterfly** is a standalone mascot character not yet assigned to a specific textbook. Butterflies are a well-worn symbol of metamorphosis — a complete restructuring from caterpillar to chrysalis to winged adult — which makes the species a natural fit for any future course built around growth, transformation, or staged development. No course pairing has been decided yet, so this page exists to hold the pose set until a textbook claims the character.
+
+All poses for the **Butterfly** mascot.
+
+<div class="grid cards" markdown>
+
+-   ![Neutral](neutral.png){ width=300 }
+
+    **Neutral**
+
+-   ![Welcome](welcome.png){ width=300 }
+
+    **Welcome**
+
+-   ![Tip](tip.png){ width=300 }
+
+    **Tip**
+
+-   ![Thinking](thinking.png){ width=300 }
+
+    **Thinking**
+
+-   ![Encouraging](encouragement.png){ width=300 }
+
+    **Encouraging**
+
+-   ![Warning](warning.png){ width=300 }
+
+    **Warning**
+
+-   ![Celebration](celebration.png){ width=300 }
+
+    **Celebration**
+
+</div>
+
+[← Back to gallery](../../list-mascots.md)

@@ -18,6 +18,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Benchy the Tugboat
 
+-   **[Ai Persona Testing](mascots/ai-persona-testing/index.md)**
+
+    ![Lens](mascots/ai-persona-testing/neutral.png){ width=220 }
+
+    Lens
+
 -   **[Ancient History](mascots/ancient-history/index.md)**
 
     ![Ancient History](mascots/ancient-history/neutral.png){ width=220 }
@@ -47,6 +53,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
     ![Quinn the Dolphin](mascots/business/neutral.png){ width=220 }
 
     Quinn the Dolphin
+
+-   **[Butterfly](mascots/butterfly/index.md)**
+
+    ![Butterfly](mascots/butterfly/neutral.png){ width=220 }
+
+    Butterfly
 
 -   **[Calculus](mascots/calculus/index.md)**
 
@@ -90,6 +102,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Maka the River Otter
 
+-   **[Duck](mascots/duck/index.md)**
+
+    ![Duck](mascots/duck/neutral.png){ width=220 }
+
+    Duck
+
 -   **[Ecology](mascots/ecology/index.md)**
 
     ![Bailey the Beaver](mascots/ecology/neutral.png){ width=220 }
@@ -102,6 +120,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Ferris the Fox
 
+-   **[Flamingo](mascots/flamingo/index.md)**
+
+    ![Flamingo](mascots/flamingo/neutral.png){ width=220 }
+
+    Flamingo
+
 -   **[Functions](mascots/functions/index.md)**
 
     ![Rick the Raccoon](mascots/functions/neutral.png){ width=220 }
@@ -113,6 +137,18 @@ that contains the mascot.  Click any mascot below to view all of its poses.
     ![Dottie the Drosophila](mascots/genetics/neutral.png){ width=220 }
 
     Dottie the Drosophila
+
+-   **[Health Education](mascots/health-education/index.md)**
+
+    ![Scout](mascots/health-education/neutral.png){ width=220 }
+
+    Scout
+
+-   **[Horse](mascots/horse/index.md)**
+
+    ![Horse](mascots/horse/neutral.png){ width=220 }
+
+    Horse
 
 -   **[Infographics](mascots/infographics/index.md)**
 
@@ -197,6 +233,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
     ![Sofia the Owl](mascots/theory-of-knowledge/neutral.png){ width=220 }
 
     Sofia the Owl
+
+-   **[Tiger](mascots/tiger/index.md)**
+
+    ![Tiger](mascots/tiger/neutral.png){ width=220 }
+
+    Tiger
 
 -   **[Token Efficiency](mascots/token-efficiency/index.md)**
 

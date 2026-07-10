@@ -24,11 +24,13 @@ nav:
   - Mascot Installation: install-mascot.md
   - Mascots:
       - 3D Printing Course: mascots/3d-printing-course/index.md
+      - Ai Persona Testing: mascots/ai-persona-testing/index.md
       - Ancient History: mascots/ancient-history/index.md
       - Bioinformatics: mascots/bioinformatics/index.md
       - Biology: mascots/biology/index.md
       - Blockchain: mascots/blockchain/index.md
       - Business: mascots/business/index.md
+      - Butterfly: mascots/butterfly/index.md
       - Calculus: mascots/calculus/index.md
       - Chemistry: mascots/chemistry/index.md
       - Circuits: mascots/circuits/index.md
@@ -36,10 +38,14 @@ nav:
       - Cybersecurity: mascots/cybersecurity/index.md
       - Dementia: mascots/Dementia/index.md
       - Digital Citizenship: mascots/digital-citizenship/index.md
+      - Duck: mascots/duck/index.md
       - Ecology: mascots/ecology/index.md
       - Economics Course: mascots/economics-course/index.md
+      - Flamingo: mascots/flamingo/index.md
       - Functions: mascots/functions/index.md
       - Genetics: mascots/genetics/index.md
+      - Health Education: mascots/health-education/index.md
+      - Horse: mascots/horse/index.md
       - Infographics: mascots/infographics/index.md
       - Information Systems: mascots/information-systems/index.md
       - Intelligent Textbooks: mascots/intelligent-textbooks/index.md
@@ -54,6 +60,7 @@ nav:
       - Selecting the Right Database: mascots/right-database/index.md
       - Statistics Course: mascots/statistics-course/index.md
       - Theory Of Knowledge: mascots/theory-of-knowledge/index.md
+      - Tiger: mascots/tiger/index.md
       - Token Efficiency: mascots/token-efficiency/index.md
       - U.S. Government: mascots/us-government/index.md
       - U.S. History: mascots/us-history/index.md

@@ -68,6 +68,14 @@ Graceful, alert, and gentle, the deer is well suited for forestry, mindfulness, 
 
 Loyal, encouraging, and endlessly enthusiastic, the dog is the ultimate "you can do it" companion. Perfect for beginner-friendly textbooks across any discipline, especially programming for kids, foreign language basics, or fitness and habit-building guides.
 
+<div class="grid cards" markdown>
+
+-   ![Scout](mascots/health-education/neutral.png){ width=200 }
+
+    **[Scout](mascots/health-education/index.md)** — Health Education
+
+</div>
+
 ## Dolphin
 
 Intelligent, social, and joyful, the dolphin is a top-tier mascot for communication studies, marine biology, sonar and acoustics, or any subject emphasizing pattern recognition and language. Its playful leaping makes it a natural for textbooks that want to feel energetic and forward-moving.
@@ -501,6 +509,18 @@ A literal lightbulb — the canonical "load" in every introductory circuit diagr
 -   ![Sparky the Lightbulb](mascots/circuits/neutral.png){ width=200 }
 
     **[Sparky the Lightbulb](mascots/circuits/index.md)** — Circuits
+
+</div>
+
+### Magnifying Glass
+
+An anthropomorphic magnifying glass is a literal stand-in for close examination of evidence, ideal for research-methods textbooks, media literacy, fact-checking, qualitative analysis, or any subject where the disciplinary virtue is distinguishing observation from inference rather than taking claims at face value. The form also sidesteps a risk unique to AI-adjacent subjects: an animal mascot could read as a stand-in for personality, but a magnifying glass cannot be mistaken for a synthetic persona or an all-knowing AI system.
+
+<div class="grid cards" markdown>
+
+-   ![Lens](mascots/ai-persona-testing/neutral.png){ width=200 }
+
+    **[Lens](mascots/ai-persona-testing/index.md)** — AI Persona Testing
 
 </div>
 
