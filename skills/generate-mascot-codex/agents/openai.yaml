@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Mascot Codex"
+  short_description: "Create mascot poses and sheets"
+  default_prompt: "Use $generate-mascot-codex to create a new textbook mascot with seven standard poses and a character sheet."
