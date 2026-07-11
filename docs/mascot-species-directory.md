@@ -18,7 +18,7 @@ Industrious, structurally minded, and famously a keystone species that re-engine
 
 <div class="grid cards" markdown>
 
--   ![Bailey the Beaver](mascots/ecology/neutral.png){ width=200 }
+-   [![Bailey the Beaver](mascots/ecology/neutral.png){ width=200 }](mascots/ecology/index.md)
 
     **[Bailey the Beaver](mascots/ecology/index.md)** — Ecology
 
@@ -30,7 +30,7 @@ Industrious, organized, and a powerful symbol of collective intelligence, the be
 
 <div class="grid cards" markdown>
 
--   ![Buzz the Honey Bee](mascots/networking/neutral.png){ width=200 }
+-   [![Buzz the Honey Bee](mascots/networking/neutral.png){ width=200 }](mascots/networking/index.md)
 
     **[Buzz the Honey Bee](mascots/networking/index.md)** — Networking
 
@@ -50,7 +50,7 @@ Independent, observant, and famously curious, the cat is a strong mascot for che
 
 <div class="grid cards" markdown>
 
--   ![Catalyst the Cat](mascots/chemistry/neutral.png){ width=200 }
+-   [![Catalyst the Cat](mascots/chemistry/neutral.png){ width=200 }](mascots/chemistry/index.md)
 
     **[Catalyst the Cat](mascots/chemistry/index.md)** — Chemistry
 
@@ -70,7 +70,7 @@ Loyal, encouraging, and endlessly enthusiastic, the dog is the ultimate "you can
 
 <div class="grid cards" markdown>
 
--   ![Scout](mascots/health-education/neutral.png){ width=200 }
+-   [![Scout](mascots/health-education/neutral.png){ width=200 }](mascots/health-education/index.md)
 
     **[Scout](mascots/health-education/index.md)** — Health Education
 
@@ -82,7 +82,7 @@ Intelligent, social, and joyful, the dolphin is a top-tier mascot for communicat
 
 <div class="grid cards" markdown>
 
--   ![Quinn the Dolphin](mascots/business/neutral.png){ width=200 }
+-   [![Quinn the Dolphin](mascots/business/neutral.png){ width=200 }](mascots/business/index.md)
 
     **[Quinn the Dolphin](mascots/business/index.md)** — Business Fundamentals
 
@@ -98,11 +98,11 @@ Sharp-eyed, soaring, and aspirational, the eagle is a strong mascot for civics, 
 
 <div class="grid cards" markdown>
 
--   ![Lex the Bald Eagle](mascots/us-government/neutral.png){ width=200 }
+-   [![Lex the Bald Eagle](mascots/us-government/neutral.png){ width=200 }](mascots/us-government/index.md)
 
     **[Lex the Bald Eagle](mascots/us-government/index.md)** — U.S. Government
 
--   ![Liberty the Bald Eagle](mascots/us-history/neutral.png){ width=200 }
+-   [![Liberty the Bald Eagle](mascots/us-history/neutral.png){ width=200 }](mascots/us-history/index.md)
 
     **[Liberty the Bald Eagle](mascots/us-history/index.md)** — U.S. History
 
@@ -114,7 +114,7 @@ Long-memoried, socially complex, and patient on time scales most species cannot 
 
 <div class="grid cards" markdown>
 
--   ![Bloom the Elephant](mascots/learning-sciences/neutral.png){ width=200 }
+-   [![Bloom the Elephant](mascots/learning-sciences/neutral.png){ width=200 }](mascots/learning-sciences/index.md)
 
     **[Bloom the Elephant](mascots/learning-sciences/index.md)** — Learning Sciences
 
@@ -126,7 +126,7 @@ Quick, persistent, and famously a tunnel-driven hunter, the ferret is a charming
 
 <div class="grid cards" markdown>
 
--   ![Fermi the Ferret](mascots/quantum-computing/neutral.png){ width=200 }
+-   [![Fermi the Ferret](mascots/quantum-computing/neutral.png){ width=200 }](mascots/quantum-computing/index.md)
 
     **[Fermi the Ferret](mascots/quantum-computing/index.md)** — Quantum Computing
 
@@ -142,11 +142,11 @@ Sharp, vigilant, and the canonical symbol of cleverness across many cultures (Re
 
 <div class="grid cards" markdown>
 
--   ![Sentinel the Fox](mascots/cybersecurity/neutral.png){ width=200 }
+-   [![Sentinel the Fox](mascots/cybersecurity/neutral.png){ width=200 }](mascots/cybersecurity/index.md)
 
     **[Sentinel the Fox](mascots/cybersecurity/index.md)** — Cybersecurity
 
--   ![Ferris the Fox](mascots/economics-course/neutral.png){ width=200 }
+-   [![Ferris the Fox](mascots/economics-course/neutral.png){ width=200 }](mascots/economics-course/index.md)
 
     **[Ferris the Fox](mascots/economics-course/index.md)** — Economics
 
@@ -158,11 +158,11 @@ Amphibious, adaptive, and a classic specimen in any biology classroom, the frog 
 
 <div class="grid cards" markdown>
 
--   ![Gregor the Tree Frog](mascots/biology/neutral.png){ width=200 }
+-   [![Gregor the Tree Frog](mascots/biology/neutral.png){ width=200 }](mascots/biology/index.md)
 
     **[Gregor the Tree Frog](mascots/biology/index.md)** — Biology
 
--   ![Mossby the Tree Frog](mascots/moss/neutral.png){ width=200 }
+-   [![Mossby the Tree Frog](mascots/moss/neutral.png){ width=200 }](mascots/moss/index.md)
 
     **[Mossby the Tree Frog](mascots/moss/index.md)** — Moss
 
@@ -194,7 +194,7 @@ Tiny, energetic, and capable of remarkable precision in flight, the hummingbird 
 
 <div class="grid cards" markdown>
 
--   ![Iris the Hummingbird](mascots/information-systems/neutral.png){ width=200 }
+-   [![Iris the Hummingbird](mascots/information-systems/neutral.png){ width=200 }](mascots/information-systems/index.md)
 
     **[Iris the Hummingbird](mascots/information-systems/index.md)** — Information Systems
 
@@ -246,11 +246,11 @@ Famously distributed-intelligent — roughly two-thirds of an octopus's neurons 
 
 <div class="grid cards" markdown>
 
--   ![Olli the Octopus](mascots/bioinformatics/neutral.png){ width=200 }
+-   [![Olli the Octopus](mascots/bioinformatics/neutral.png){ width=200 }](mascots/bioinformatics/index.md)
 
     **[Olli the Octopus](mascots/bioinformatics/index.md)** — Bioinformatics
 
--   ![Xavi the Octopus](mascots/xapi-course/neutral.png){ width=200 }
+-   [![Xavi the Octopus](mascots/xapi-course/neutral.png){ width=200 }](mascots/xapi-course/index.md)
 
     **[Xavi the Octopus](mascots/xapi-course/index.md)** — xAPI Course
 
@@ -262,7 +262,7 @@ Playful, social, and at home in two environments (water and land), the otter is 
 
 <div class="grid cards" markdown>
 
--   ![Maka the River Otter](mascots/digital-citizenship/neutral.png){ width=200 }
+-   [![Maka the River Otter](mascots/digital-citizenship/neutral.png){ width=200 }](mascots/digital-citizenship/index.md)
 
     **[Maka the River Otter](mascots/digital-citizenship/index.md)** — Digital Citizenship
 
@@ -274,11 +274,11 @@ Wise, watchful, and the canonical Western symbol of scholarship (the owl of Athe
 
 <div class="grid cards" markdown>
 
--   ![Axiom the Owl](mascots/intelligent-textbooks/neutral.png){ width=200 }
+-   [![Axiom the Owl](mascots/intelligent-textbooks/neutral.png){ width=200 }](mascots/intelligent-textbooks/index.md)
 
     **[Axiom the Owl](mascots/intelligent-textbooks/index.md)** — Intelligent Textbooks
 
--   ![Sofia the Owl](mascots/theory-of-knowledge/neutral.png){ width=200 }
+-   [![Sofia the Owl](mascots/theory-of-knowledge/neutral.png){ width=200 }](mascots/theory-of-knowledge/index.md)
 
     **[Sofia the Owl](mascots/theory-of-knowledge/index.md)** — Theory of Knowledge
 
@@ -294,7 +294,7 @@ Colorful, talkative, and famously imitative, the parrot is a natural for languag
 
 <div class="grid cards" markdown>
 
--   ![Polly the Parrot](mascots/prompt-class/neutral.png){ width=200 }
+-   [![Polly the Parrot](mascots/prompt-class/neutral.png){ width=200 }](mascots/prompt-class/index.md)
 
     **[Polly the Parrot](mascots/prompt-class/index.md)** — Prompt Engineering
 
@@ -306,7 +306,7 @@ Visually spectacular and famously a display animal, the peacock is the natural m
 
 <div class="grid cards" markdown>
 
--   ![Percy the Peacock](mascots/infographics/neutral.png){ width=200 }
+-   [![Percy the Peacock](mascots/infographics/neutral.png){ width=200 }](mascots/infographics/index.md)
 
     **[Percy the Peacock](mascots/infographics/index.md)** — Infographics
 
@@ -338,11 +338,11 @@ Dexterous, curious, and famously a problem-solver (those clever paws!), the racc
 
 <div class="grid cards" markdown>
 
--   ![Rex the Raccoon](mascots/blockchain/neutral.png){ width=200 }
+-   [![Rex the Raccoon](mascots/blockchain/neutral.png){ width=200 }](mascots/blockchain/index.md)
 
     **[Rex the Raccoon](mascots/blockchain/index.md)** — Blockchain
 
--   ![Rick the Raccoon](mascots/functions/neutral.png){ width=200 }
+-   [![Rick the Raccoon](mascots/functions/neutral.png){ width=200 }](mascots/functions/index.md)
 
     **[Rick the Raccoon](mascots/functions/index.md)** — Functions
 
@@ -354,7 +354,7 @@ Among the most cognitively capable birds — caching food, planning ahead, readi
 
 <div class="grid cards" markdown>
 
--   ![Rune the Raven](mascots/mini-mba-for-startups/neutral.png){ width=200 }
+-   [![Rune the Raven](mascots/mini-mba-for-startups/neutral.png){ width=200 }](mascots/mini-mba-for-startups/index.md)
 
     **[Rune the Raven](mascots/mini-mba-for-startups/index.md)** — Ole Cup Entrepreneurship
 
@@ -366,7 +366,7 @@ Quietly charismatic, arboreal, and famously a low-footprint specialist (their ba
 
 <div class="grid cards" markdown>
 
--   ![Pemba the Red Panda](mascots/token-efficiency/neutral.png){ width=200 }
+-   [![Pemba the Red Panda](mascots/token-efficiency/neutral.png){ width=200 }](mascots/token-efficiency/index.md)
 
     **[Pemba the Red Panda](mascots/token-efficiency/index.md)** — Token Efficiency
 
@@ -402,7 +402,7 @@ Web-building, network-aware, and structurally fundamental to ecology, the spider
 
 <div class="grid cards" markdown>
 
--   ![Nexus the Spider](mascots/context-graph/neutral.png){ width=200 }
+-   [![Nexus the Spider](mascots/context-graph/neutral.png){ width=200 }](mascots/context-graph/index.md)
 
     **[Nexus the Spider](mascots/context-graph/index.md)** — Context Graph
 
@@ -414,11 +414,11 @@ Industrious, forward-thinking (those carefully cached acorns!), and quick on the
 
 <div class="grid cards" markdown>
 
--   ![Sylvia the Squirrel](mascots/personal-finance/neutral.png){ width=200 }
+-   [![Sylvia the Squirrel](mascots/personal-finance/neutral.png){ width=200 }](mascots/personal-finance/index.md)
 
     **[Sylvia the Squirrel](mascots/personal-finance/index.md)** — Personal Finance
 
--   ![Sylvia the Statistical Squirrel](mascots/statistics-course/neutral.png){ width=200 }
+-   [![Sylvia the Statistical Squirrel](mascots/statistics-course/neutral.png){ width=200 }](mascots/statistics-course/index.md)
 
     **[Sylvia the Statistical Squirrel](mascots/statistics-course/index.md)** — AP Statistics
 
@@ -442,7 +442,7 @@ Closely related to the turtle but with a more terrestrial, philosophical bearing
 
 <div class="grid cards" markdown>
 
--   ![Chronos the Tortoise](mascots/ancient-history/neutral.png){ width=200 }
+-   [![Chronos the Tortoise](mascots/ancient-history/neutral.png){ width=200 }](mascots/ancient-history/index.md)
 
     **[Chronos the Tortoise](mascots/ancient-history/index.md)** — Ancient History
 
@@ -482,7 +482,7 @@ A small rounded character with soft features and gentle expressions can be a str
 
 <div class="grid cards" markdown>
 
--   ![Tokie](mascots/Dementia/neutral.png){ width=200 }
+-   [![Tokie](mascots/Dementia/neutral.png){ width=200 }](mascots/Dementia/index.md)
 
     **[Tokie](mascots/Dementia/index.md)** — Understanding Dementia
 
@@ -494,7 +494,7 @@ A small humanoid figure climbing or walking up and down a hill is a literal visu
 
 <div class="grid cards" markdown>
 
--   ![Delta the Slope-Walking Explorer](mascots/calculus/neutral.png){ width=200 }
+-   [![Delta the Slope-Walking Explorer](mascots/calculus/neutral.png){ width=200 }](mascots/calculus/index.md)
 
     **[Delta the Slope-Walking Explorer](mascots/calculus/index.md)** — Calculus
 
@@ -506,7 +506,7 @@ A literal lightbulb — the canonical "load" in every introductory circuit diagr
 
 <div class="grid cards" markdown>
 
--   ![Sparky the Lightbulb](mascots/circuits/neutral.png){ width=200 }
+-   [![Sparky the Lightbulb](mascots/circuits/neutral.png){ width=200 }](mascots/circuits/index.md)
 
     **[Sparky the Lightbulb](mascots/circuits/index.md)** — Circuits
 
@@ -518,7 +518,7 @@ An anthropomorphic magnifying glass is a literal stand-in for close examination 
 
 <div class="grid cards" markdown>
 
--   ![Lens](mascots/ai-persona-testing/neutral.png){ width=200 }
+-   [![Lens](mascots/ai-persona-testing/neutral.png){ width=200 }](mascots/ai-persona-testing/index.md)
 
     **[Lens](mascots/ai-persona-testing/index.md)** — AI Persona Testing
 
@@ -530,11 +530,11 @@ A humanoid or wheeled robot is a flexible mascot for subjects where the artifact
 
 <div class="grid cards" markdown>
 
--   ![Prema](mascots/pre-calc/neutral.png){ width=200 }
+-   [![Prema](mascots/pre-calc/neutral.png){ width=200 }](mascots/pre-calc/index.md)
 
     **[Prema](mascots/pre-calc/index.md)** — Pre-Calculus
 
--   ![Dex the Robot](mascots/right-database/neutral.png){ width=200 }
+-   [![Dex the Robot](mascots/right-database/neutral.png){ width=200 }](mascots/right-database/index.md)
 
     **[Dex the Robot](mascots/right-database/index.md)** — Selecting the Right Database
 
@@ -546,7 +546,7 @@ The original 3DBenchy is the most-printed object in the maker world, used as a u
 
 <div class="grid cards" markdown>
 
--   ![Benchy the Tugboat](mascots/3d-printing-course/neutral.png){ width=200 }
+-   [![Benchy the Tugboat](mascots/3d-printing-course/neutral.png){ width=200 }](mascots/3d-printing-course/index.md)
 
     **[Benchy the Tugboat](mascots/3d-printing-course/index.md)** — Introduction to 3D Printing
 
@@ -558,7 +558,7 @@ Mythical, magical, and a strong symbol of rarity and exceptional achievement, th
 
 <div class="grid cards" markdown>
 
--   ![Sparkle the Unicorn](mascots/unicorns/neutral.png){ width=200 }
+-   [![Sparkle the Unicorn](mascots/unicorns/neutral.png){ width=200 }](mascots/unicorns/index.md)
 
     **[Sparkle the Unicorn](mascots/unicorns/index.md)** — Unicorns
 
