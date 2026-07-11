@@ -32,7 +32,7 @@ Stage 2, after concept direction is clear:
 2. Should the mascot use an existing course palette or new colors?
 3. Where should I write the mascot files, and should I update the gallery navigation?
 
-When `request_user_input` is available, use it for these stages. If only plain chat is available, ask the same questions directly.
+When a dialog UI is available, use it for these stages. If only plain chat is available, ask the same questions directly.
 
 ## Concept Selection
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mascot Generator"
+  short_description: "Create mascot poses and sheets"
+  default_prompt: "Use $mascot-generator to create a new textbook mascot with seven standard poses and a character sheet."

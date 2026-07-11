@@ -30,6 +30,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Ancient History
 
+-   **[Armadillo](mascots/armadillo/index.md)**
+
+    [![Armadillo](mascots/armadillo/neutral.png){ width=220 }](mascots/armadillo/index.md)
+
+    Armadillo
+
 -   **[Bioinformatics](mascots/bioinformatics/index.md)**
 
     [![Olli the Octopus](mascots/bioinformatics/neutral.png){ width=220 }](mascots/bioinformatics/index.md)

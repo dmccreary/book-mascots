@@ -1,9 +1,9 @@
 ---
-name: generate-mascot-codex
-description: Generate a new pedagogical textbook mascot with Codex. Use when the user asks to create, design, or generate a new mascot; produce mascot image prompts; generate the seven standard mascot poses; create a character sheet; or add a mascot gallery entry in a book-mascots-style MkDocs project. Guides intake dialog, concept selection, collision checks, image generation, post-processing, and output files for neutral, welcome, tip, thinking, encouraging, warning, and celebration poses.
+name: mascot-generator
+description: Generate a new pedagogical textbook or general-purpose mascot. Use when the user asks to create, design, or generate a mascot; produce mascot image prompts; generate the seven standard mascot poses; create a character sheet; or add a mascot gallery entry in a book-mascots-style MkDocs project. Guides intake dialog, concept selection, collision checks, image generation, post-processing, and output files for neutral, welcome, tip, thinking, encouraging, warning, and celebration poses.
 ---
 
-# Generate Mascot Codex
+# Mascot Generator
 
 ## Overview
 
@@ -11,7 +11,7 @@ Create a complete textbook mascot package: a concept grounded in the course, a c
 
 ## Required Intake
 
-Start with a short dialog before designing unless the user already supplied every required field. Use `request_user_input` when it is available; otherwise ask concise plain-text questions and wait for the answers.
+Start with a short dialog before designing unless the user already supplied every required field. Ask concise questions and wait for the answers.
 
 Read `references/intake-dialog.md` before asking. Gather:
 
@@ -24,6 +24,28 @@ Read `references/intake-dialog.md` before asking. Gather:
 
 If the user has no mascot idea, propose 3 concepts and ask them to choose before generating images. Favor concepts whose species, object, or name encodes a real disciplinary idea.
 
+## Conditional: Codex Runtime
+
+Use this section only when running inside Codex or another environment with the same tools.
+
+- If `request_user_input` is available, use it for the staged intake dialog; otherwise ask plain-text questions.
+- For bitmap mascot artwork, use the image generation tool or the `imagegen` skill. Generate one image per pose when poses need distinct prompts.
+- For transparent PNGs, generate on a flat chroma-key background first, then remove the key locally with the installed imagegen helper when available:
+
+```bash
+python "${CODEX_HOME:-$HOME/.codex}/skills/.system/imagegen/scripts/remove_chroma_key.py" \
+  --input <source> \
+  --out <final.png> \
+  --auto-key border \
+  --soft-matte \
+  --transparent-threshold 12 \
+  --opaque-threshold 220 \
+  --despill
+```
+
+- Move or copy generated project assets into the workspace before finishing. Do not leave gallery-referenced images only in a generated-images cache.
+- Use `view_image` or a contact sheet for visual QA when available.
+
 ## Workflow
 
 1. Confirm the destination. Default to `docs/mascots/<slug>/` in the current repo unless the user names another path.
@@ -34,7 +56,7 @@ If the user has no mascot idea, propose 3 concepts and ask them to choose before
 3. Design the mascot concept. Choose a name, form/species, role, and visual anchors that are specific to the textbook.
 4. Create a canonical `character-sheet.md` from `assets/templates/character-sheet.md`.
 5. Create `image-prompts.md` from `assets/templates/image-prompts.md`. Read `references/pose-and-prompt-rules.md` before writing the prompts.
-6. Generate all seven pose images with the image generation tool or imagegen skill:
+6. Generate all seven pose images:
    - `neutral.png`
    - `welcome.png`
    - `tip.png`
