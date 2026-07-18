@@ -36,16 +36,38 @@ CANONICAL_POSE_ORDER = [
 # Mascot-name display overrides for sources whose prompt files don't parse cleanly.
 OVERRIDES: dict[str, str] = {
     "3d-printing-course": "Benchy the Tugboat",
+    "ai-strategy-for-education": "Sage the Owl",
+    "asl-book": "Mimi the Chameleon",
+    "atam": "Vista the Giraffe",
     "cybersecurity": "Sentinel the Fox",
+    "english-language-arts": "Pip the Bookworm",
+    "food-science": "Zyme the Yeast Cell",
+    "forensic-science": "Trace the Raccoon",
+    "hydroponics": "Cress the Tree Frog",
     "intelligent-textbooks": "Axiom the Owl",
+    "learning-graphs": "Axiom the Owl",
+    "learning-micropython": "Monty the MicroPython Snake",
+    "learning-python": "Monty the Python",
+    "learning-record-store": "Rowan the Red Panda",
+    "moving-rainbow": "Pixel the Addressable LED",
     "pre-calc": "Prema",
+    "psychology": "Psy the Owl",
+    "public-health": "Sage the Crane",
+    "semiconductor-physics-course": "Nova the Electron Sprite",
+    "stem-robots": "Sparky the Robot",
 }
 
 # Display-title overrides for slugs whose naive title-case rendering looks wrong
 # (initialisms, acronyms, possessives). Used for the per-mascot page H1, the
 # gallery card label, and the mkdocs nav entry.
 TITLE_OVERRIDES: dict[str, str] = {
+    "ai-strategy-for-education": "AI Strategy for Education",
+    "asl-book": "ASL Book",
+    "atam": "ATAM",
+    "learning-micropython": "Learning MicroPython",
+    "public-health": "Introduction to Public Health",
     "right-database": "Selecting the Right Database",
+    "stem-robots": "STEM Robots",
     "us-government": "U.S. Government",
     "us-history": "U.S. History",
     "xapi-course": "xAPI Course",

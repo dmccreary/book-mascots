@@ -25,8 +25,11 @@ nav:
   - Mascots:
       - 3D Printing Course: mascots/3d-printing-course/index.md
       - Ai Persona Testing: mascots/ai-persona-testing/index.md
+      - AI Strategy for Education: mascots/ai-strategy-for-education/index.md
       - Ancient History: mascots/ancient-history/index.md
       - Armadillo: mascots/armadillo/index.md
+      - ASL Book: mascots/asl-book/index.md
+      - ATAM: mascots/atam/index.md
       - Bioinformatics: mascots/bioinformatics/index.md
       - Biology: mascots/biology/index.md
       - Blockchain: mascots/blockchain/index.md
@@ -42,24 +45,37 @@ nav:
       - Duck: mascots/duck/index.md
       - Ecology: mascots/ecology/index.md
       - Economics Course: mascots/economics-course/index.md
+      - English Language Arts: mascots/english-language-arts/index.md
       - Flamingo: mascots/flamingo/index.md
+      - Food Science: mascots/food-science/index.md
+      - Forensic Science: mascots/forensic-science/index.md
       - Functions: mascots/functions/index.md
       - Genetics: mascots/genetics/index.md
       - Health Education: mascots/health-education/index.md
       - Horse: mascots/horse/index.md
+      - Hydroponics: mascots/hydroponics/index.md
       - Infographics: mascots/infographics/index.md
       - Information Systems: mascots/information-systems/index.md
       - Intelligent Textbooks: mascots/intelligent-textbooks/index.md
+      - Introduction to Public Health: mascots/public-health/index.md
+      - Learning Graphs: mascots/learning-graphs/index.md
+      - Learning MicroPython: mascots/learning-micropython/index.md
+      - Learning Python: mascots/learning-python/index.md
+      - Learning Record Store: mascots/learning-record-store/index.md
       - Learning Sciences: mascots/learning-sciences/index.md
       - Mini Mba For Startups: mascots/mini-mba-for-startups/index.md
       - Moss: mascots/moss/index.md
+      - Moving Rainbow: mascots/moving-rainbow/index.md
       - Networking: mascots/networking/index.md
       - Personal Finance: mascots/personal-finance/index.md
       - Pre Calc: mascots/pre-calc/index.md
       - Prompt Class: mascots/prompt-class/index.md
+      - Psychology: mascots/psychology/index.md
       - Quantum Computing: mascots/quantum-computing/index.md
       - Selecting the Right Database: mascots/right-database/index.md
+      - Semiconductor Physics Course: mascots/semiconductor-physics-course/index.md
       - Statistics Course: mascots/statistics-course/index.md
+      - STEM Robots: mascots/stem-robots/index.md
       - Theory Of Knowledge: mascots/theory-of-knowledge/index.md
       - Tiger: mascots/tiger/index.md
       - Token Efficiency: mascots/token-efficiency/index.md

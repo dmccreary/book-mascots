@@ -1,3 +1,9 @@
+---
+title: Mascot Similarity Map
+description: A 2D display of all the mascot icons.  You can zoom and pan and click on any mascot to find out more.
+hide:
+  toc
+---
 # Mascot Similarity Map
 
 This page projects every mascot's neutral pose into a 2D layout using
