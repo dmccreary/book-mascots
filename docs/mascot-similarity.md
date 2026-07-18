@@ -15,22 +15,49 @@ zoom, or reset the view.
 
 <div id="map" style="width: 100%; height: 80vh; min-height: 600px; border: solid blue 2px; background: aliceblue"></div>
 
-<script src="https://cdn.plot.ly/plotly-basic-2.35.2.min.js"></script>
 <script>
+(() => {
   // The page lives at /<base>/mascot-similarity/ (mkdocs default
   // use_directory_urls=true), so all data + image paths need a "../"
   // prefix to escape the page's own directory.
-  fetch("../data/mascot-embeddings.json")
-    .then(r => r.json())
-    .then(renderMap)
+  const plotlyUrl = "https://cdn.plot.ly/plotly-basic-2.35.2.min.js";
+
+  function loadPlotly() {
+    if (window.Plotly) return Promise.resolve(window.Plotly);
+
+    return new Promise((resolve, reject) => {
+      let script = document.getElementById("plotly-basic-script");
+      const isNewScript = !script;
+      if (!script) {
+        script = document.createElement("script");
+        script.id = "plotly-basic-script";
+        script.src = plotlyUrl;
+      }
+      script.addEventListener("load", () => resolve(window.Plotly), { once: true });
+      script.addEventListener(
+        "error",
+        () => reject(new Error("Could not load Plotly from " + plotlyUrl)),
+        { once: true },
+      );
+      if (isNewScript) document.head.appendChild(script);
+    });
+  }
+
+  Promise.all([
+    loadPlotly(),
+    fetch("../data/mascot-embeddings.json").then(r => {
+      if (!r.ok) throw new Error(`Could not load mascot data (${r.status})`);
+      return r.json();
+    }),
+  ])
+    .then(([Plotly, data]) => renderMap(Plotly, data))
     .catch(e => {
       document.getElementById("map").textContent =
-        "Could not load mascot-embeddings.json. Run " +
-        "`python src/embeddings/compute_mascot_embeddings.py` first.";
+        "Could not load the mascot similarity map. Please try again.";
       console.error(e);
     });
 
-  function renderMap(data) {
+  function renderMap(Plotly, data) {
     const pts = data.points;
     const trace = {
       x: pts.map(p => p.x),
@@ -82,4 +109,5 @@ zoom, or reset the view.
       window.location.href = `../mascots/${slug}/`;
     });
   }
+})();
 </script>
