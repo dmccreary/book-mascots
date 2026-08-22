@@ -229,13 +229,13 @@ character. Run the trim script on each image so Maka displays at the right
 size in the admonition boxes:
 
 ```bash
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/neutral.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/welcome.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/thinking.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/tip.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/warning.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/encouraging.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/celebration.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/neutral.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/welcome.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/thinking.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/tip.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/warning.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/encouraging.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/celebration.png
 ```
 
 ### Preview the Result

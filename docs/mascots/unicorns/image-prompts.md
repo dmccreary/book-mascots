@@ -218,6 +218,6 @@ After saving images to this directory, trim excess padding:
 
 ```bash
 for img in neutral.png welcome.png thinking.png tip.png warning.png encouraging.png celebration.png; do
-  python ~/Documents/ws/claude-skills/skills/book-installer/src/image-utils/trim-padding-from-image.py docs/img/mascot/$img
+  python ~/Documents/ws/ibook-skills/skills/book-installer/src/image-utils/trim-padding-from-image.py docs/img/mascot/$img
 done
 ```

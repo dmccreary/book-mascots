@@ -8,4 +8,4 @@ This skill generates a new mascot design for a textbook based on a title and des
 
 The full skill guide is now part of the Book Installer skill located here: 
 
-https://github.com/dmccreary/claude-skills/blob/main/skills/book-installer/references/learning-mascot.md
+https://github.com/dmccreary/ibook-skills/blob/main/skills/book-installer/references/learning-mascot.md

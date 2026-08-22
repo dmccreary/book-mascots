@@ -228,13 +228,13 @@ character. Untrimmed, the mascot appears tiny inside the 90px admonition
 box. Run this script on every pose:
 
 ```bash
-python ~/Documents/ws/claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/neutral.png
-python ~/Documents/ws/claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/welcome.png
-python ~/Documents/ws/claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/thinking.png
-python ~/Documents/ws/claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/tip.png
-python ~/Documents/ws/claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/warning.png
-python ~/Documents/ws/claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/encouraging.png
-python ~/Documents/ws/claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/celebration.png
+python ~/Documents/ws/ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/neutral.png
+python ~/Documents/ws/ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/welcome.png
+python ~/Documents/ws/ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/thinking.png
+python ~/Documents/ws/ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/tip.png
+python ~/Documents/ws/ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/warning.png
+python ~/Documents/ws/ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/encouraging.png
+python ~/Documents/ws/ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/celebration.png
 ```
 
 The script trims transparent padding to the bounding box of the visible

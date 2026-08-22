@@ -237,13 +237,13 @@ or checkered background.
 3. **Trim transparent padding** so the mascot fills the admonition icon space (run from project root):
 
 ```bash
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/neutral.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/welcome.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/thinking.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/tip.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/warning.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/encouraging.png
-python ../claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/celebration.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/neutral.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/welcome.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/thinking.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/tip.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/warning.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/encouraging.png
+python ../ibook-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/celebration.png
 ```
 
 4. Run `mkdocs serve` and open the **Mascot Style Guide** page (under Learning Graph) to verify all seven poses render correctly.
