@@ -9,6 +9,8 @@ exclude_docs: |
   image-prompts.md
   mascot-prompts.md
   mascot-descriptions.md
+  character-sheet.md
+  character-reference.md
 
 nav:
   - Home: index.md

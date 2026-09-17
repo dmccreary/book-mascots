@@ -274,7 +274,7 @@ Wise, watchful, and the canonical Western symbol of scholarship (the owl of Athe
 
 <div class="grid cards" markdown>
 
--   [![Axiom the Owl](mascots/intelligent-textbooks/neutral.png){ width=200 }](mascots/intelligent-textbooks/index.md)
+-   [![Axiom the Owl](mascots/intelligent-textbooks/axiom-neutral.png){ width=200 }](mascots/intelligent-textbooks/index.md)
 
     **[Axiom the Owl](mascots/intelligent-textbooks/index.md)** — Intelligent Textbooks
 

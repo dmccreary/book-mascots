@@ -1,7 +1,7 @@
 # References
 
 A curated reading list for readers of this gallery and the
-[Mascot Effectiveness Research](mascot-effectivness.md) page. The 15 references
+[Mascot Effectiveness Research](mascot-effectiveness.md) page. The 15 references
 below cover pedagogical agents, multimedia learning, parasocial relationships,
 and the cognitive-science foundations that explain why a well-designed mascot
 measurably improves engagement and learning outcomes.
