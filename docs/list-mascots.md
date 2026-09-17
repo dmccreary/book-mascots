@@ -408,6 +408,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Sparky the Robot
 
+-   **[Systems Thinking](mascots/systems-thinking/index.md)**
+
+    ![Sage the Owl](mascots/systems-thinking/neutral.png){ width=220 }
+
+    Sage the Owl
+
 -   **[Theory Of Knowledge](mascots/theory-of-knowledge/index.md)**
 
     ![Sofia the Owl](mascots/theory-of-knowledge/neutral.png){ width=220 }
