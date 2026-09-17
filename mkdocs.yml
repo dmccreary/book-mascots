@@ -26,10 +26,13 @@ nav:
       - 3D Printing Course: mascots/3d-printing-course/index.md
       - Ai Persona Testing: mascots/ai-persona-testing/index.md
       - AI Strategy for Education: mascots/ai-strategy-for-education/index.md
+      - Algebra 1: mascots/algebra-1/index.md
       - Ancient History: mascots/ancient-history/index.md
       - Armadillo: mascots/armadillo/index.md
       - ASL Book: mascots/asl-book/index.md
       - ATAM: mascots/atam/index.md
+      - Automating Instructional Design: mascots/automating-instructional-design/index.md
+      - Beginning Electronics: mascots/beginning-electronics/index.md
       - Bioinformatics: mascots/bioinformatics/index.md
       - Biology: mascots/biology/index.md
       - Blockchain: mascots/blockchain/index.md
@@ -38,6 +41,7 @@ nav:
       - Calculus: mascots/calculus/index.md
       - Chemistry: mascots/chemistry/index.md
       - Circuits: mascots/circuits/index.md
+      - Coding Club: mascots/coding-club/index.md
       - Context Graph: mascots/context-graph/index.md
       - Cybersecurity: mascots/cybersecurity/index.md
       - Dementia: mascots/Dementia/index.md
@@ -46,14 +50,17 @@ nav:
       - Ecology: mascots/ecology/index.md
       - Economics Course: mascots/economics-course/index.md
       - English Language Arts: mascots/english-language-arts/index.md
+      - Fft Benchmarking: mascots/fft-benchmarking/index.md
       - Flamingo: mascots/flamingo/index.md
       - Food Science: mascots/food-science/index.md
       - Forensic Science: mascots/forensic-science/index.md
       - Functions: mascots/functions/index.md
       - Genetics: mascots/genetics/index.md
+      - Glo Coding Club: mascots/glo-coding-club/index.md
       - Health Education: mascots/health-education/index.md
       - Horse: mascots/horse/index.md
       - Hydroponics: mascots/hydroponics/index.md
+      - Ibook Skills: mascots/ibook-skills/index.md
       - Infographics: mascots/infographics/index.md
       - Information Systems: mascots/information-systems/index.md
       - Intelligent Textbooks: mascots/intelligent-textbooks/index.md
@@ -64,14 +71,20 @@ nav:
       - Learning Record Store: mascots/learning-record-store/index.md
       - Learning Sciences: mascots/learning-sciences/index.md
       - Mini Mba For Startups: mascots/mini-mba-for-startups/index.md
+      - Modeling Healthcare Data: mascots/modeling-healthcare-data/index.md
       - Moss: mascots/moss/index.md
       - Moving Rainbow: mascots/moving-rainbow/index.md
       - Networking: mascots/networking/index.md
+      - P5 Textbook: mascots/p5-textbook/index.md
       - Personal Finance: mascots/personal-finance/index.md
       - Pre Calc: mascots/pre-calc/index.md
       - Prompt Class: mascots/prompt-class/index.md
       - Psychology: mascots/psychology/index.md
       - Quantum Computing: mascots/quantum-computing/index.md
+      - Raspberry Pi Stem: mascots/raspberry-pi-stem/index.md
+      - Robot Faces: mascots/robot-faces/index.md
+      - Scratch: mascots/scratch/index.md
+      - Scratch Textbook: mascots/scratch-textbook/index.md
       - Selecting the Right Database: mascots/right-database/index.md
       - Semiconductor Physics Course: mascots/semiconductor-physics-course/index.md
       - Statistics Course: mascots/statistics-course/index.md
@@ -83,6 +96,7 @@ nav:
       - U.S. History: mascots/us-history/index.md
       - Unicorns: mascots/unicorns/index.md
       - xAPI Course: mascots/xapi-course/index.md
+      - Zensical Test: mascots/zensical-test/index.md
   - References: references.md
   - License: license.md
   - Contact: contact.md

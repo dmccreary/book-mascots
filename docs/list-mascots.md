@@ -30,6 +30,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Sage the Owl
 
+-   **[Algebra 1](mascots/algebra-1/index.md)**
+
+    ![Sage the Fox](mascots/algebra-1/neutral.png){ width=220 }
+
+    Sage the Fox
+
 -   **[Ancient History](mascots/ancient-history/index.md)**
 
     ![Ancient History](mascots/ancient-history/neutral.png){ width=220 }
@@ -53,6 +59,18 @@ that contains the mascot.  Click any mascot below to view all of its poses.
     ![Vista the Giraffe](mascots/atam/neutral.png){ width=220 }
 
     Vista the Giraffe
+
+-   **[Automating Instructional Design](mascots/automating-instructional-design/index.md)**
+
+    ![Sim the Builder-Bot](mascots/automating-instructional-design/neutral.png){ width=220 }
+
+    Sim the Builder-Bot
+
+-   **[Beginning Electronics](mascots/beginning-electronics/index.md)**
+
+    ![Volt the Robot](mascots/beginning-electronics/neutral.png){ width=220 }
+
+    Volt the Robot
 
 -   **[Bioinformatics](mascots/bioinformatics/index.md)**
 
@@ -102,6 +120,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Circuits
 
+-   **[Coding Club](mascots/coding-club/index.md)**
+
+    ![Circuit the Robot](mascots/coding-club/neutral.png){ width=220 }
+
+    Circuit the Robot
+
 -   **[Context Graph](mascots/context-graph/index.md)**
 
     ![Nexus the Spider](mascots/context-graph/neutral.png){ width=220 }
@@ -150,6 +174,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Pip the Bookworm
 
+-   **[Fft Benchmarking](mascots/fft-benchmarking/index.md)**
+
+    ![Echo the Dolphin](mascots/fft-benchmarking/neutral.png){ width=220 }
+
+    Echo the Dolphin
+
 -   **[Flamingo](mascots/flamingo/index.md)**
 
     ![Flamingo](mascots/flamingo/neutral.png){ width=220 }
@@ -180,6 +210,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Dottie the Drosophila
 
+-   **[Glo Coding Club](mascots/glo-coding-club/index.md)**
+
+    ![Griffin](mascots/glo-coding-club/neutral.png){ width=220 }
+
+    Griffin
+
 -   **[Health Education](mascots/health-education/index.md)**
 
     ![Health Education](mascots/health-education/neutral.png){ width=220 }
@@ -197,6 +233,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
     ![Cress the Tree Frog](mascots/hydroponics/neutral.png){ width=220 }
 
     Cress the Tree Frog
+
+-   **[Ibook Skills](mascots/ibook-skills/index.md)**
+
+    ![Kit the Otter](mascots/ibook-skills/neutral.png){ width=220 }
+
+    Kit the Otter
 
 -   **[Infographics](mascots/infographics/index.md)**
 
@@ -252,6 +294,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Rune the Raven
 
+-   **[Modeling Healthcare Data](mascots/modeling-healthcare-data/index.md)**
+
+    ![Sage the Octopus](mascots/modeling-healthcare-data/neutral.png){ width=220 }
+
+    Sage the Octopus
+
 -   **[Moss](mascots/moss/index.md)**
 
     ![Mossby the Tree Frog](mascots/moss/neutral.png){ width=220 }
@@ -269,6 +317,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
     ![Networking](mascots/networking/neutral.png){ width=220 }
 
     Networking
+
+-   **[P5 Textbook](mascots/p5-textbook/index.md)**
+
+    ![P5 Textbook](mascots/p5-textbook/neutral.png){ width=220 }
+
+    P5 Textbook
 
 -   **[Personal Finance](mascots/personal-finance/index.md)**
 
@@ -306,11 +360,35 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Fermi the Ferret
 
+-   **[Raspberry Pi Stem](mascots/raspberry-pi-stem/index.md)**
+
+    ![Berry the Raspberry](mascots/raspberry-pi-stem/neutral.png){ width=220 }
+
+    Berry the Raspberry
+
 -   **[Selecting the Right Database](mascots/right-database/index.md)**
 
     ![Dex the Robot](mascots/right-database/neutral.png){ width=220 }
 
     Dex the Robot
+
+-   **[Robot Faces](mascots/robot-faces/index.md)**
+
+    ![Pixel the Round-Face Robot](mascots/robot-faces/neutral.png){ width=220 }
+
+    Pixel the Round-Face Robot
+
+-   **[Scratch](mascots/scratch/index.md)**
+
+    ![Cody the CoderDojo Turtle](mascots/scratch/neutral.png){ width=220 }
+
+    Cody the CoderDojo Turtle
+
+-   **[Scratch Textbook](mascots/scratch-textbook/index.md)**
+
+    ![Scratch the Cat](mascots/scratch-textbook/neutral.png){ width=220 }
+
+    Scratch the Cat
 
 -   **[Semiconductor Physics Course](mascots/semiconductor-physics-course/index.md)**
 
@@ -371,6 +449,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
     ![Xavi the Octopus](mascots/xapi-course/neutral.png){ width=220 }
 
     Xavi the Octopus
+
+-   **[Zensical Test](mascots/zensical-test/index.md)**
+
+    ![Zensical Test](mascots/zensical-test/neutral.png){ width=220 }
+
+    Zensical Test
 
 </div>
 <!-- end:auto -->
