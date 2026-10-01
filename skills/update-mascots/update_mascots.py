@@ -9,7 +9,7 @@ import shutil
 import sys
 from pathlib import Path
 
-REPO = (Path.home() / "Documents" / "ws" / "book-mascots").resolve()
+REPO = Path(__file__).resolve().parents[2]
 SIBLINGS_ROOT = REPO.parent
 MASCOTS_DIR = REPO / "docs" / "mascots"
 LIST_PAGE = REPO / "docs" / "list-mascots.md"
@@ -49,6 +49,7 @@ OVERRIDES: dict[str, str] = {
     "learning-micropython": "Monty the MicroPython Snake",
     "learning-python": "Monty the Python",
     "learning-record-store": "Rowan the Red Panda",
+    "microsims": "Bounce the Ball",
     "moving-rainbow": "Pixel the Addressable LED",
     "pre-calc": "Prema",
     "psychology": "Psy the Owl",
@@ -65,6 +66,8 @@ TITLE_OVERRIDES: dict[str, str] = {
     "asl-book": "ASL Book",
     "atam": "ATAM",
     "learning-micropython": "Learning MicroPython",
+    "microsims": "MicroSims",
+    "pi-env-monitor": "Raspberry Pi Environmental Monitoring",
     "public-health": "Introduction to Public Health",
     "right-database": "Selecting the Right Database",
     "stem-robots": "STEM Robots",

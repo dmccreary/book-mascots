@@ -288,6 +288,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Bloom the Elephant
 
+-   **[MicroSims](mascots/microsims/index.md)**
+
+    ![Bounce the Ball](mascots/microsims/neutral.png){ width=220 }
+
+    Bounce the Ball
+
 -   **[Mini Mba For Startups](mascots/mini-mba-for-startups/index.md)**
 
     ![Rune the Raven](mascots/mini-mba-for-startups/neutral.png){ width=220 }
@@ -329,6 +335,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
     ![Sylvia the Squirrel](mascots/personal-finance/neutral.png){ width=220 }
 
     Sylvia the Squirrel
+
+-   **[Raspberry Pi Environmental Monitoring](mascots/pi-env-monitor/index.md)**
+
+    ![Mecha the Clockwork Owl](mascots/pi-env-monitor/neutral.png){ width=220 }
+
+    Mecha the Clockwork Owl
 
 -   **[Pre Calc](mascots/pre-calc/index.md)**
 
