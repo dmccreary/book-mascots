@@ -1,7 +1,7 @@
 {
   "model": "clip-ViT-B-32",
   "projection": "umap",
-  "generated_at": "2026-07-18T00:36:08+00:00",
+  "generated_at": "2026-10-01T05:29:37+00:00",
   "viewport": [
     1000,
     1000
@@ -12,480 +12,624 @@
       "name": "Benchy the Tugboat",
       "title": "3D Printing Course",
       "neutral": "mascots/3d-printing-course/neutral.png",
-      "x": 900.18,
-      "y": 459.24
+      "x": 797.5,
+      "y": 271.57
     },
     {
       "slug": "ai-persona-testing",
       "name": "Lens",
       "title": "Ai Persona Testing",
       "neutral": "mascots/ai-persona-testing/neutral.png",
-      "x": 462.0,
-      "y": 509.36
+      "x": 801.64,
+      "y": 367.54
     },
     {
       "slug": "ai-strategy-for-education",
       "name": "Sage the Owl",
       "title": "AI Strategy for Education",
       "neutral": "mascots/ai-strategy-for-education/neutral.png",
-      "x": 438.67,
-      "y": 127.71
+      "x": 159.49,
+      "y": 366.09
+    },
+    {
+      "slug": "algebra-1",
+      "name": "Sage the Fox",
+      "title": "Algebra 1",
+      "neutral": "mascots/algebra-1/neutral.png",
+      "x": 208.12,
+      "y": 806.78
     },
     {
       "slug": "ancient-history",
       "name": "Ancient History",
       "title": "Ancient History",
       "neutral": "mascots/ancient-history/neutral.png",
-      "x": 412.28,
-      "y": 611.43
+      "x": 497.48,
+      "y": 504.5
     },
     {
       "slug": "armadillo",
       "name": "Armadillo",
       "title": "Armadillo",
       "neutral": "mascots/armadillo/neutral.png",
-      "x": 327.61,
-      "y": 488.83
+      "x": 350.3,
+      "y": 716.77
     },
     {
       "slug": "asl-book",
       "name": "Mimi the Chameleon",
       "title": "ASL Book",
       "neutral": "mascots/asl-book/neutral.png",
-      "x": 393.47,
-      "y": 550.43
+      "x": 470.84,
+      "y": 542.99
     },
     {
       "slug": "atam",
       "name": "Vista the Giraffe",
       "title": "ATAM",
       "neutral": "mascots/atam/neutral.png",
-      "x": 512.46,
-      "y": 477.3
+      "x": 581.38,
+      "y": 354.71
+    },
+    {
+      "slug": "automating-instructional-design",
+      "name": "Sim the Builder-Bot",
+      "title": "Automating Instructional Design",
+      "neutral": "mascots/automating-instructional-design/neutral.png",
+      "x": 931.37,
+      "y": 243.6
+    },
+    {
+      "slug": "beginning-electronics",
+      "name": "Volt the Robot",
+      "title": "Beginning Electronics",
+      "neutral": "mascots/beginning-electronics/neutral.png",
+      "x": 899.63,
+      "y": 286.03
     },
     {
       "slug": "bioinformatics",
       "name": "Olli the Octopus",
       "title": "Bioinformatics",
       "neutral": "mascots/bioinformatics/neutral.png",
-      "x": 725.37,
-      "y": 440.98
+      "x": 730.81,
+      "y": 85.41
     },
     {
       "slug": "biology",
       "name": "Gregor the Tree Frog",
       "title": "Biology",
       "neutral": "mascots/biology/neutral.png",
-      "x": 354.72,
-      "y": 622.02
+      "x": 562.14,
+      "y": 510.12
     },
     {
       "slug": "blockchain",
       "name": "Rex the Raccoon",
       "title": "Blockchain",
       "neutral": "mascots/blockchain/neutral.png",
-      "x": 132.13,
-      "y": 907.88
+      "x": 143.26,
+      "y": 859.24
     },
     {
       "slug": "business",
       "name": "Quinn the Dolphin",
       "title": "Business",
       "neutral": "mascots/business/neutral.png",
-      "x": 174.42,
-      "y": 733.88
+      "x": 60.0,
+      "y": 906.05
     },
     {
       "slug": "butterfly",
       "name": "Butterfly",
       "title": "Butterfly",
       "neutral": "mascots/butterfly/neutral.png",
-      "x": 554.81,
-      "y": 526.03
+      "x": 565.73,
+      "y": 278.92
     },
     {
       "slug": "calculus",
       "name": "Delta the Slope-Walking Explorer",
       "title": "Calculus",
       "neutral": "mascots/calculus/neutral.png",
-      "x": 808.73,
-      "y": 395.9
+      "x": 809.16,
+      "y": 177.64
     },
     {
       "slug": "chemistry",
       "name": "Catalyst the Cat",
       "title": "Chemistry",
       "neutral": "mascots/chemistry/neutral.png",
-      "x": 60.0,
-      "y": 877.12
+      "x": 222.74,
+      "y": 868.71
     },
     {
       "slug": "circuits",
       "name": "Circuits",
       "title": "Circuits",
       "neutral": "mascots/circuits/neutral.png",
-      "x": 881.71,
-      "y": 428.47
+      "x": 874.84,
+      "y": 269.68
+    },
+    {
+      "slug": "clocks-and-watches",
+      "name": "Chrono the Robot",
+      "title": "Clocks and Watches",
+      "neutral": "mascots/clocks-and-watches/neutral.png",
+      "x": 940.0,
+      "y": 282.62
+    },
+    {
+      "slug": "coding-club",
+      "name": "Circuit the Robot",
+      "title": "Coding Club",
+      "neutral": "mascots/coding-club/neutral.png",
+      "x": 923.05,
+      "y": 270.67
     },
     {
       "slug": "context-graph",
       "name": "Nexus the Spider",
       "title": "Context Graph",
       "neutral": "mascots/context-graph/neutral.png",
-      "x": 756.8,
-      "y": 437.32
+      "x": 764.69,
+      "y": 131.69
     },
     {
       "slug": "cybersecurity",
       "name": "Sentinel the Fox",
       "title": "Cybersecurity",
       "neutral": "mascots/cybersecurity/neutral.png",
-      "x": 229.22,
-      "y": 894.31
+      "x": 113.0,
+      "y": 793.42
     },
     {
       "slug": "Dementia",
       "name": "Tokie",
       "title": "Dementia",
       "neutral": "mascots/Dementia/neutral.png",
-      "x": 869.44,
-      "y": 507.0
+      "x": 733.01,
+      "y": 206.18
     },
     {
       "slug": "digital-citizenship",
       "name": "Maka the River Otter",
       "title": "Digital Citizenship",
       "neutral": "mascots/digital-citizenship/neutral.png",
-      "x": 142.31,
-      "y": 783.65
+      "x": 91.19,
+      "y": 940.0
     },
     {
       "slug": "duck",
       "name": "Duck",
       "title": "Duck",
       "neutral": "mascots/duck/neutral.png",
-      "x": 307.98,
-      "y": 319.42
+      "x": 178.13,
+      "y": 212.92
     },
     {
       "slug": "ecology",
       "name": "Bailey the Beaver",
       "title": "Ecology",
       "neutral": "mascots/ecology/neutral.png",
-      "x": 124.9,
-      "y": 813.88
+      "x": 120.27,
+      "y": 928.91
     },
     {
       "slug": "economics-course",
       "name": "Ferris the Fox",
       "title": "Economics Course",
       "neutral": "mascots/economics-course/neutral.png",
-      "x": 248.35,
-      "y": 874.66
+      "x": 147.36,
+      "y": 749.64
     },
     {
       "slug": "english-language-arts",
       "name": "Pip the Bookworm",
       "title": "English Language Arts",
       "neutral": "mascots/english-language-arts/neutral.png",
-      "x": 799.68,
-      "y": 440.22
+      "x": 786.85,
+      "y": 111.36
+    },
+    {
+      "slug": "fft-benchmarking",
+      "name": "Echo the Dolphin",
+      "title": "Fft Benchmarking",
+      "neutral": "mascots/fft-benchmarking/neutral.png",
+      "x": 721.53,
+      "y": 305.28
     },
     {
       "slug": "flamingo",
       "name": "Flamingo",
       "title": "Flamingo",
       "neutral": "mascots/flamingo/neutral.png",
-      "x": 285.63,
-      "y": 293.29
+      "x": 156.09,
+      "y": 226.64
     },
     {
       "slug": "food-science",
       "name": "Zyme the Yeast Cell",
       "title": "Food Science",
       "neutral": "mascots/food-science/neutral.png",
-      "x": 795.08,
-      "y": 498.44
+      "x": 731.52,
+      "y": 178.19
     },
     {
       "slug": "forensic-science",
       "name": "Trace the Raccoon",
       "title": "Forensic Science",
       "neutral": "mascots/forensic-science/neutral.png",
-      "x": 94.68,
-      "y": 940.0
+      "x": 130.0,
+      "y": 845.42
     },
     {
       "slug": "functions",
       "name": "Rick the Raccoon",
       "title": "Functions",
       "neutral": "mascots/functions/neutral.png",
-      "x": 144.68,
-      "y": 874.97
+      "x": 121.26,
+      "y": 895.56
     },
     {
       "slug": "genetics",
       "name": "Dottie the Drosophila",
       "title": "Genetics",
       "neutral": "mascots/genetics/neutral.png",
-      "x": 656.35,
-      "y": 535.25
+      "x": 612.05,
+      "y": 245.65
+    },
+    {
+      "slug": "glo-coding-club",
+      "name": "Griffin",
+      "title": "Glo Coding Club",
+      "neutral": "mascots/glo-coding-club/neutral.png",
+      "x": 171.39,
+      "y": 303.07
     },
     {
       "slug": "health-education",
       "name": "Health Education",
       "title": "Health Education",
       "neutral": "mascots/health-education/neutral.png",
-      "x": 330.62,
-      "y": 413.7
+      "x": 302.88,
+      "y": 768.53
     },
     {
       "slug": "horse",
       "name": "Horse",
       "title": "Horse",
       "neutral": "mascots/horse/neutral.png",
-      "x": 285.57,
-      "y": 394.07
+      "x": 285.05,
+      "y": 771.21
     },
     {
       "slug": "hydroponics",
       "name": "Cress the Tree Frog",
       "title": "Hydroponics",
       "neutral": "mascots/hydroponics/neutral.png",
-      "x": 460.09,
-      "y": 546.81
+      "x": 547.56,
+      "y": 444.77
+    },
+    {
+      "slug": "ibook-skills",
+      "name": "Kit the Otter",
+      "title": "Ibook Skills",
+      "neutral": "mascots/ibook-skills/neutral.png",
+      "x": 174.84,
+      "y": 924.81
     },
     {
       "slug": "infographics",
       "name": "Percy the Peacock",
       "title": "Infographics",
       "neutral": "mascots/infographics/neutral.png",
-      "x": 445.45,
-      "y": 223.29
+      "x": 245.28,
+      "y": 326.07
     },
     {
       "slug": "information-systems",
       "name": "Information Systems",
       "title": "Information Systems",
       "neutral": "mascots/information-systems/neutral.png",
-      "x": 432.71,
-      "y": 138.68
+      "x": 214.73,
+      "y": 405.56
     },
     {
       "slug": "intelligent-textbooks",
       "name": "Axiom the Owl",
       "title": "Intelligent Textbooks",
       "neutral": "mascots/intelligent-textbooks/axiom-neutral.png",
-      "x": 364.71,
-      "y": 187.56
+      "x": 175.89,
+      "y": 352.98
     },
     {
       "slug": "learning-graphs",
       "name": "Axiom the Owl",
       "title": "Learning Graphs",
       "neutral": "mascots/learning-graphs/neutral.png",
-      "x": 374.94,
-      "y": 224.74
+      "x": 172.58,
+      "y": 286.86
     },
     {
       "slug": "learning-micropython",
       "name": "Monty the MicroPython Snake",
       "title": "Learning MicroPython",
       "neutral": "mascots/learning-micropython/neutral.png",
-      "x": 318.03,
-      "y": 566.95
+      "x": 483.98,
+      "y": 560.11
     },
     {
       "slug": "learning-python",
       "name": "Monty the Python",
       "title": "Learning Python",
       "neutral": "mascots/learning-python/neutral.png",
-      "x": 329.43,
-      "y": 571.7
+      "x": 477.4,
+      "y": 533.7
     },
     {
       "slug": "learning-record-store",
       "name": "Rowan the Red Panda",
       "title": "Learning Record Store",
       "neutral": "mascots/learning-record-store/neutral.png",
-      "x": 130.68,
-      "y": 871.15
+      "x": 194.81,
+      "y": 828.37
     },
     {
       "slug": "learning-sciences",
       "name": "Bloom the Elephant",
       "title": "Learning Sciences",
       "neutral": "mascots/learning-sciences/neutral.png",
-      "x": 537.94,
-      "y": 447.4
+      "x": 601.58,
+      "y": 346.57
+    },
+    {
+      "slug": "microsims",
+      "name": "Bounce the Ball",
+      "title": "MicroSims",
+      "neutral": "mascots/microsims/neutral.png",
+      "x": 779.03,
+      "y": 360.91
     },
     {
       "slug": "mini-mba-for-startups",
       "name": "Rune the Raven",
       "title": "Mini Mba For Startups",
       "neutral": "mascots/mini-mba-for-startups/neutral.png",
-      "x": 390.4,
-      "y": 86.3
+      "x": 104.29,
+      "y": 292.28
+    },
+    {
+      "slug": "modeling-healthcare-data",
+      "name": "Sage the Octopus",
+      "title": "Modeling Healthcare Data",
+      "neutral": "mascots/modeling-healthcare-data/neutral.png",
+      "x": 707.51,
+      "y": 77.17
     },
     {
       "slug": "moss",
       "name": "Mossby the Tree Frog",
       "title": "Moss",
       "neutral": "mascots/moss/neutral.png",
-      "x": 357.93,
-      "y": 583.2
+      "x": 508.25,
+      "y": 507.46
     },
     {
       "slug": "moving-rainbow",
       "name": "Pixel the Addressable LED",
       "title": "Moving Rainbow",
       "neutral": "mascots/moving-rainbow/neutral.png",
-      "x": 940.0,
-      "y": 487.56
+      "x": 781.83,
+      "y": 249.11
     },
     {
       "slug": "networking",
       "name": "Networking",
       "title": "Networking",
       "neutral": "mascots/networking/neutral.png",
-      "x": 592.06,
-      "y": 505.13
+      "x": 578.85,
+      "y": 296.23
+    },
+    {
+      "slug": "p5-textbook",
+      "name": "P5 Textbook",
+      "title": "P5 Textbook",
+      "neutral": "mascots/p5-textbook/neutral.png",
+      "x": 540.29,
+      "y": 553.02
     },
     {
       "slug": "personal-finance",
       "name": "Sylvia the Squirrel",
       "title": "Personal Finance",
       "neutral": "mascots/personal-finance/neutral.png",
-      "x": 192.0,
-      "y": 850.44
+      "x": 147.91,
+      "y": 790.66
+    },
+    {
+      "slug": "pi-env-monitor",
+      "name": "Mecha the Clockwork Owl",
+      "title": "Raspberry Pi Environmental Monitoring",
+      "neutral": "mascots/pi-env-monitor/neutral.png",
+      "x": 136.17,
+      "y": 334.89
     },
     {
       "slug": "pre-calc",
       "name": "Prema",
       "title": "Pre Calc",
       "neutral": "mascots/pre-calc/neutral.png",
-      "x": 478.87,
-      "y": 624.67
+      "x": 919.54,
+      "y": 327.91
     },
     {
       "slug": "prompt-class",
       "name": "Polly the Parrot",
       "title": "Prompt Class",
       "neutral": "mascots/prompt-class/neutral.png",
-      "x": 448.11,
-      "y": 192.83
+      "x": 207.33,
+      "y": 332.25
     },
     {
       "slug": "psychology",
       "name": "Psy the Owl",
       "title": "Psychology",
       "neutral": "mascots/psychology/neutral.png",
-      "x": 477.57,
-      "y": 148.58
+      "x": 172.86,
+      "y": 417.4
     },
     {
       "slug": "public-health",
       "name": "Sage the Crane",
       "title": "Introduction to Public Health",
       "neutral": "mascots/public-health/neutral.png",
-      "x": 325.62,
-      "y": 182.61
+      "x": 131.17,
+      "y": 387.7
     },
     {
       "slug": "quantum-computing",
       "name": "Fermi the Ferret",
       "title": "Quantum Computing",
       "neutral": "mascots/quantum-computing/neutral.png",
-      "x": 197.68,
-      "y": 809.97
+      "x": 89.24,
+      "y": 877.64
+    },
+    {
+      "slug": "raspberry-pi-stem",
+      "name": "Berry the Raspberry",
+      "title": "Raspberry Pi Stem",
+      "neutral": "mascots/raspberry-pi-stem/neutral.png",
+      "x": 757.44,
+      "y": 386.87
     },
     {
       "slug": "right-database",
       "name": "Dex the Robot",
       "title": "Selecting the Right Database",
       "neutral": "mascots/right-database/neutral.png",
-      "x": 732.58,
-      "y": 361.89
+      "x": 913.58,
+      "y": 194.24
+    },
+    {
+      "slug": "robot-faces",
+      "name": "Pixel the Round-Face Robot",
+      "title": "Robot Faces",
+      "neutral": "mascots/robot-faces/neutral.png",
+      "x": 818.39,
+      "y": 326.09
+    },
+    {
+      "slug": "scratch",
+      "name": "Cody the CoderDojo Turtle",
+      "title": "Scratch",
+      "neutral": "mascots/scratch/neutral.png",
+      "x": 505.73,
+      "y": 584.42
+    },
+    {
+      "slug": "scratch-textbook",
+      "name": "Scratch the Cat",
+      "title": "Scratch Textbook",
+      "neutral": "mascots/scratch-textbook/neutral.png",
+      "x": 273.53,
+      "y": 817.88
     },
     {
       "slug": "semiconductor-physics-course",
       "name": "Nova the Electron Sprite",
       "title": "Semiconductor Physics Course",
       "neutral": "mascots/semiconductor-physics-course/neutral.png",
-      "x": 868.52,
-      "y": 453.29
+      "x": 759.31,
+      "y": 207.12
     },
     {
       "slug": "statistics-course",
       "name": "Sylvia the Statistical Squirrel",
       "title": "Statistics Course",
       "neutral": "mascots/statistics-course/neutral.png",
-      "x": 275.34,
-      "y": 854.21
+      "x": 135.24,
+      "y": 726.11
     },
     {
       "slug": "stem-robots",
       "name": "Sparky the Robot",
       "title": "STEM Robots",
       "neutral": "mascots/stem-robots/neutral.png",
-      "x": 749.38,
-      "y": 371.9
+      "x": 919.61,
+      "y": 189.88
+    },
+    {
+      "slug": "systems-thinking",
+      "name": "Sage the Owl",
+      "title": "Systems Thinking",
+      "neutral": "mascots/systems-thinking/neutral.png",
+      "x": 144.03,
+      "y": 279.91
     },
     {
       "slug": "theory-of-knowledge",
       "name": "Sofia the Owl",
       "title": "Theory Of Knowledge",
       "neutral": "mascots/theory-of-knowledge/neutral.png",
-      "x": 379.65,
-      "y": 157.14
+      "x": 193.33,
+      "y": 393.08
     },
     {
       "slug": "tiger",
       "name": "Tiger",
       "title": "Tiger",
       "neutral": "mascots/tiger/neutral.png",
-      "x": 348.58,
-      "y": 423.6
+      "x": 306.67,
+      "y": 788.18
     },
     {
       "slug": "token-efficiency",
       "name": "Pemba the Red Panda",
       "title": "Token Efficiency",
       "neutral": "mascots/token-efficiency/neutral.png",
-      "x": 208.35,
-      "y": 918.89
+      "x": 102.02,
+      "y": 764.7
     },
     {
       "slug": "unicorns",
       "name": "Sparkle the Unicorn",
       "title": "Unicorns",
       "neutral": "mascots/unicorns/neutral.png",
-      "x": 317.25,
-      "y": 808.57
+      "x": 139.92,
+      "y": 650.18
     },
     {
       "slug": "us-government",
       "name": "Lex the Bald Eagle",
       "title": "U.S. Government",
       "neutral": "mascots/us-government/neutral.png",
-      "x": 335.05,
-      "y": 60.0
+      "x": 104.66,
+      "y": 242.42
     },
     {
       "slug": "us-history",
       "name": "Liberty the Bald Eagle",
       "title": "U.S. History",
       "neutral": "mascots/us-history/neutral.png",
-      "x": 358.98,
-      "y": 68.53
+      "x": 114.2,
+      "y": 222.39
     },
     {
       "slug": "xapi-course",
       "name": "Xavi the Octopus",
       "title": "xAPI Course",
       "neutral": "mascots/xapi-course/neutral.png",
-      "x": 753.01,
-      "y": 485.15
+      "x": 695.17,
+      "y": 106.35
+    },
+    {
+      "slug": "zensical-test",
+      "name": "Zensical Test",
+      "title": "Zensical Test",
+      "neutral": "mascots/zensical-test/neutral.png",
+      "x": 712.29,
+      "y": 60.0
     }
   ]
 }

@@ -120,6 +120,12 @@ that contains the mascot.  Click any mascot below to view all of its poses.
 
     Circuits
 
+-   **[Clocks and Watches](mascots/clocks-and-watches/index.md)**
+
+    ![Chrono the Robot](mascots/clocks-and-watches/neutral.png){ width=220 }
+
+    Chrono the Robot
+
 -   **[Coding Club](mascots/coding-club/index.md)**
 
     ![Circuit the Robot](mascots/coding-club/neutral.png){ width=220 }
